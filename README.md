@@ -8,8 +8,7 @@ Daniel de Jesus Teixeira - https://github.com/DanielJT20/Projeto-Front_End
 João Pedro Borges Souza Santana - https://github.com/JoaoPedro1808/Project-frontend-jp
 <br>
 Breno Chaves da Cunha - https://github.com/Brenoch/Projeto_front_end
-
-<br>
+<br><br>
 
 
 
