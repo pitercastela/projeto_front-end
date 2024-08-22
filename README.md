@@ -22,7 +22,19 @@ em react
 
 próxima aula:
 individual:
-propósito do sistema
+propósito do sistema: Dar visibilidade aos projetos feitos pelos alunos
 
 grupo:
-fazer o 5W2H (what, where, when, who, why, how much, how) do sistema:
+fazer o 5W2H do sistema:
+what:
+where:
+when:
+who:
+why: Dar visibilidade aos projetos feitos pelos alunos
+how much: 
+how:
+
+
+
+
+
