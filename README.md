@@ -4,7 +4,9 @@
 Lucas Alves Castela Pereira - https://github.com/pitercastela/front_end
 <br>
 Daniel de Jesus Teixeira - https://github.com/DanielJT20/Projeto-Front_End
+<br>
 João Pedro Borges Souza Santana - https://github.com/JoaoPedro1808/Project-frontend-jp
+<br>
 Breno Chaves da Cunha - https://github.com/Brenoch/Projeto_front_end
 
 
