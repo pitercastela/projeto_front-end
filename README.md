@@ -21,18 +21,17 @@ procurar um projeto por aluno
 em react
 
 próxima aula:
-individual:
+
 propósito do sistema: Dar visibilidade aos projetos feitos pelos alunos
 
-grupo:
-fazer o 5W2H do sistema:
-what:
-where:
-when:
-who:
+5W2H do sistema:
+what: sistema para apresentar projetos feitos pelos alunos do ibmec
+where: ...
+when: Durante o segundo semestre de 2024
+who: Lucas, Breno, João, Daneil
 why: Dar visibilidade aos projetos feitos pelos alunos
-how much: 
-how:
+how much: o custo do projeto será o tempo e esforço para o desenvolvimento da aplicação
+how: usando as ferramentas e métodos aprendidos em aula
 
 
 
