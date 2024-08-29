@@ -11,17 +11,6 @@ Breno Chaves da Cunha - https://github.com/Brenoch/Projeto_front_end
 <br><br>
 
 
-
-sistema web para portfólio de projetos
-
-precisa mostrar quem fez os projetos
-os projetos devem ser atrativos
-procurar um projeto por aluno
-
-em react
-
-próxima aula:
-
 propósito do sistema: Dar visibilidade aos projetos feitos pelos alunos
 
 5W2H do sistema:
