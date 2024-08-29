@@ -6,10 +6,10 @@
 - Breno Chaves da Cunha - https://github.com/Brenoch/Projeto_front_end
 
 
-# **Propósito do sistema:** 
+# **Propósito do sistema** 
 - Dar visibilidade aos projetos feitos pelos alunos do Ibmec, servindo como portfólio.
 
-# *5W2H do sistema:*
+# *5W2H do sistema*
 - **What:** Sistema para apresentar projetos feitos pelos alunos do Ibmec.
 - **Where:** O sistema será utilizado na Web.
 - **When:** durante o tempo de aula e no tempo em que estamos fazendo os projetos.
@@ -18,7 +18,10 @@
 - **How much:** o custo do projeto será o tempo e esforço para o desenvolvimento da aplicação
 - **How:** usando as ferramentas e métodos aprendidos em aula
 
+# **Requisitos**
+**Requisto funcionais**
 
+**Requisitos não funcionais**
 
 
 
