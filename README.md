@@ -19,9 +19,9 @@
 - **How:** usando as ferramentas e métodos aprendidos em aula
 
 # **Requisitos**
-**Requisto funcionais**
+- **Requisto funcionais**
 
-**Requisitos não funcionais**
+- **Requisitos não funcionais**
 
 
 
