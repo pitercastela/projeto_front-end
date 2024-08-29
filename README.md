@@ -36,13 +36,13 @@
 - dentro do repositorio
 - apenas o administrador vai ter um cadastro o resto é sem login
 - não existe perfil, apenas nome e curso
-- cada aluno vai ter um portifolio e apenas o administrador vai
+- cada aluno vai ter um portifolio 
  
-- **Requistos funcionais**
+#  **Requistos funcionais**
 
 - O sistema precisa deve possibilitar o filtro do portifilio usando o nome do aluno
 
-- **Requisitos não funcionais**
+#  **Requisitos não funcionais**
 
 - O site tem que ser em ingles e portugues
 - tem que ser desenvolvido usando react
