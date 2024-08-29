@@ -15,11 +15,11 @@
 
 - **What:** Sistema para apresentar projetos feitos pelos alunos do Ibmec.
 - **Where:** O sistema será utilizado na Web.
-- **When:** durante o tempo de aula e no tempo em que estamos fazendo os projetos.
+- **When:** Durante o tempo de aula e no tempo em que estamos fazendo os projetos.
 - **Who:** Lucas, Breno, João, Daniel
 - **Why:** Dar visibilidade aos projetos feitos pelos alunos
-- **How much:** o custo do projeto será o tempo e esforço para o desenvolvimento da aplicação
-- **How:** usando as ferramentas e métodos aprendidos em aula
+- **How much:** O custo do projeto será o tempo e esforço para o desenvolvimento da aplicação
+- **How:** Usando as ferramentas e métodos aprendidos em aula
 
 # **Requisitos**
 
@@ -27,16 +27,16 @@
 - O site tem que ser em ingles e portugues
 - Tem que ser desenvolvido usando React
 - Tem que ter no celular (Website)
-- aparecer um quantidade de projetos e que possa carregar mais(provavelmente no fim da pagina)
+- Aparecer um quantidade de projetos e que possa carregar mais(provavelmente no fim da pagina)
 - Nome dos alunos
-- cursos dos alunos
-- descrição
-- as tecnologias usadas 
-- inicio e fim do projeto
-- dentro do repositorio
-- apenas o administrador vai ter um cadastro o resto é sem login
-- não existe perfil, apenas nome e curso
-- cada aluno vai ter um portifolio 
+- Cursos dos alunos
+- Descrição
+- As tecnologias usadas 
+- Inicio e fim do projeto
+- Dentro do repositorio
+- Apenas o administrador vai ter um cadastro o resto é sem login
+- Não existe perfil, apenas nome e curso
+- Cada aluno vai ter um portifolio 
  
 #  **Requistos funcionais**
 
@@ -49,6 +49,6 @@
 - O sistema deve estar em dispostivos Mobile
 - O sitema deve ter um tempo de carregamento otimizado
 - O sistema deve conter uma navegação intuitiva
-- o sistema deve ter uma otimização de imagens
+- O sistema deve ter uma otimização de imagens
 
 
