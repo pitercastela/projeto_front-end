@@ -1,4 +1,4 @@
-# Projeto_front-end
+# Projeto front-end
  ***Integrantes:***
 - Lucas Alves Castela Pereira - https://github.com/pitercastela/front_end
 - Daniel de Jesus Teixeira - https://github.com/DanielJT20/Projeto-Front_End
@@ -12,7 +12,7 @@
 # *5W2H do sistema:*
 - **What:** Sistema para apresentar projetos feitos pelos alunos do Ibmec.
 - **Where:** O sistema será utilizado na Web.
-- **When:** Durante o segundo semestre de 2024
+- **When:** durante o tempo de aula e no tempo em que estamos fazendo os projetos.
 - **Who:** Lucas, Breno, João, Daniel
 - **Why:** Dar visibilidade aos projetos feitos pelos alunos
 - **How much:** o custo do projeto será o tempo e esforço para o desenvolvimento da aplicação
