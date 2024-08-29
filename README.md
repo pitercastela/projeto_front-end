@@ -44,11 +44,11 @@
 
 #  **Requisitos não funcionais**
 
-- O site tem que ser em ingles e portugues
-- tem que ser desenvolvido usando react
-- tem que ter no celular (website)
-- tempo de carregamento
-- Navegação intuitiva
-- otimização de imagens
+- O sistema precisa ser em ingles e portugues
+- O sistema deve ser desenvolvido usando react
+- O sistema deve estar em dispostivos Mobile
+- O sitema deve ter um tempo de carregamento otimizado
+- O sistema deve conter uma navegação intuitiva
+- o sistema deve ter uma otimização de imagens
 
 
