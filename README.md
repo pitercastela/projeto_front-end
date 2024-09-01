@@ -41,14 +41,20 @@
 #  **Requistos funcionais**
 
 - O sistema precisa deve possibilitar o filtro do portifilio usando o nome do aluno
+- O sistema precisa ter uma aba de busca
+- O sistema precisa de uma aba de navegação
+- 
 
 #  **Requisitos não funcionais**
-
-- O sistema precisa ser em ingles e portugues
+- O sistema deve possibilitar que apenas o administrador deverá possuir um cadastro para conseguir fazer modificações
+- O sistema precisa ser em inglês e português
 - O sistema deve ser desenvolvido usando react
 - O sistema deve estar em dispostivos Mobile
 - O sitema deve ter um tempo de carregamento otimizado
 - O sistema deve conter uma navegação intuitiva
 - O sistema deve ter uma otimização de imagens
+- O sistema não poderá ter perfil, apenas nome e curso
+- O sistema deve usar a identidade visual do Ibmec
+
 
 
