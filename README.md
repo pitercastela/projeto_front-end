@@ -22,12 +22,7 @@
 - **How:** Usando as ferramentas e métodos aprendidos em aula
 
 # **Requisitos**
-
-- Usar a identidade visual do IBMEC no site
-- Tem que ser desenvolvido usando React
-- As tecnologias usadas 
 - Inicio e fim do projeto
-- Não existe perfil, apenas nome e curso
 - Cada aluno vai ter um portifolio 
 
  
@@ -37,8 +32,6 @@
 - O sistema precisa ter uma aba de busca
 - O sistema precisa de uma aba de navegação
 - Aparecer um quantidade de projetos e que possa carregar mais(provavelmente no fim da pagina)
-- Nome dos alunos
-- Cursos dos alunos
 - Não existe perfil, apenas nome e curso
 - Descrição
 
@@ -55,6 +48,6 @@
 - Tem que ter no celular (Website)
 - Apenas o administrador vai ter um cadastro o resto é sem login
 - Dentro do repositorio
-
-
-
+- Tem que ser desenvolvido usando React
+- Usar a identidade visual do IBMEC no site
+- Não existe perfil, apenas nome e curso
