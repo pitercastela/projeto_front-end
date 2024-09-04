@@ -21,11 +21,6 @@
 - **How much:** O custo do projeto será o tempo e esforço para o desenvolvimento da aplicação
 - **How:** Usando as ferramentas e métodos aprendidos em aula
 
-# **Requisitos**
-- Inicio e fim do projeto
-- Cada aluno vai ter um portifolio 
-
- 
 #  **Requistos funcionais**
 
 - O sistema precisa deve possibilitar o filtro do portifilio usando o nome do aluno
@@ -34,6 +29,7 @@
 - Aparecer um quantidade de projetos e que possa carregar mais(provavelmente no fim da pagina)
 - Não existe perfil, apenas nome e curso
 - Descrição
+- Cada aluno vai ter um portifolio 
 
 #  **Requisitos não funcionais**
 - O sistema deve possibilitar que apenas o administrador deverá possuir um cadastro para conseguir fazer modificações
@@ -48,6 +44,6 @@
 - Tem que ter no celular (Website)
 - Apenas o administrador vai ter um cadastro o resto é sem login
 - Dentro do repositorio
-- Tem que ser desenvolvido usando React
 - Usar a identidade visual do IBMEC no site
 - Não existe perfil, apenas nome e curso
+- Inicio e fim do projeto
