@@ -26,24 +26,23 @@
 - Usar a identidade visual do IBMEC no site
 - O site tem que ser em ingles e portugues
 - Tem que ser desenvolvido usando React
-- Tem que ter no celular (Website)
-- Aparecer um quantidade de projetos e que possa carregar mais(provavelmente no fim da pagina)
 - Nome dos alunos
 - Cursos dos alunos
 - Descrição
 - As tecnologias usadas 
 - Inicio e fim do projeto
 - Dentro do repositorio
-- Apenas o administrador vai ter um cadastro o resto é sem login
 - Não existe perfil, apenas nome e curso
 - Cada aluno vai ter um portifolio 
+
  
 #  **Requistos funcionais**
 
 - O sistema precisa deve possibilitar o filtro do portifilio usando o nome do aluno
 - O sistema precisa ter uma aba de busca
 - O sistema precisa de uma aba de navegação
-- 
+- Aparecer um quantidade de projetos e que possa carregar mais(provavelmente no fim da pagina)
+
 
 #  **Requisitos não funcionais**
 - O sistema deve possibilitar que apenas o administrador deverá possuir um cadastro para conseguir fazer modificações
@@ -55,6 +54,8 @@
 - O sistema deve ter uma otimização de imagens
 - O sistema não poderá ter perfil, apenas nome e curso
 - O sistema deve usar a identidade visual do Ibmec
+- Tem que ter no celular (Website)
+- Apenas o administrador vai ter um cadastro o resto é sem login
 
 
 
