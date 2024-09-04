@@ -9,17 +9,17 @@
 
 # **Propósito do sistema** 
 
-- Dar visibilidade aos projetos feitos pelos alunos do Ibmec, servindo como portfólio.
+- Servir como um portfólio para apresentar e dar visibilidade aos projetos feitos pelos alunos do ibmec
 
 # *5W2H do sistema*
 
 - **What:** Sistema para apresentar projetos feitos pelos alunos do Ibmec.
 - **Where:** O sistema será utilizado na Web.
-- **When:** Durante o tempo de aula e no tempo em que estamos fazendo os projetos.
-- **Who:** Lucas, Breno, João, Daniel
-- **Why:** Dar visibilidade aos projetos feitos pelos alunos
+- **When:** Quando as empresas estiverem buscando por referências dos alunos os quais estão enteressados em contratar
+- **Who:** As empresas interessadas em contratar alunos do Ibmec
+- **Why:** Servir como um portfólio para apresentar e dar visibilidade aos projetos feitos pelos alunos do ibmec
 - **How much:** O custo do projeto será o tempo e esforço para o desenvolvimento da aplicação
-- **How:** Usando as ferramentas e métodos aprendidos em aula
+- **How:** Mostrando projetos que mostrem o esforço e potencial dos alunos do Ibmec
 
 #  **Requistos funcionais**
 
