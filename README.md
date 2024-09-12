@@ -24,19 +24,19 @@
 
 #  **Requistos funcionais**
 
-- O sistema precisa possibilitar o filtro do portifilio usando o nome do aluno
-- O sistema precisa ter uma aba de busca
-- O sistema precisa de uma aba de navegação
-- O sistema deve ter um botão de carregar mais no final da pagina
-- O sistema deve possuir matricula e curso em cada portifolio de alunos
-- O sistema deve possibilitar que apenas o admistrador modifique informações de usuarios
+- O sistema precisará possibilitar o filtro do portifilio usando o nome do aluno
+- O sistema precisará ter uma barra de busca
+- O sistema precisará de uma aba de navegação
+- O sistema deverá ter um botão de carregar mais no final da pagina
+- O sistema deverá possuir matricula e curso em cada portifolio de alunos
+- O sistema deverá possibilitar que apenas o admistrador modifique informações de usuarios
 
 
 #  **Requisitos não funcionais**
-- O sistema precisa ser em inglês e português
-- O sistema deve ser desenvolvido usando react
-- O sistema deve estar em dispostivos Mobile
-- O sistema não poderá ter perfil, apenas nome e curso
-- O sistema deve usar a identidade visual do Ibmec
+- O sistema precisará ser em inglês e português
+- O sistema deverá ser desenvolvido usando react
+- O sistema deverá estar em dispostivos Mobile
+- O sistema deverá possuir apenas os nomes e cursos dos alunos, eles não devem possuir um perfil
+- O sistema deverá usar a identidade visual do Ibmec
 
   
