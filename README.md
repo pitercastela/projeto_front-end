@@ -1,5 +1,6 @@
 # Projeto front-end
 
+***Nome do grupo: erro 305***
  ***Integrantes:***
 - Lucas Alves Castela Pereira - https://github.com/pitercastela/front_end
 - Daniel de Jesus Teixeira - https://github.com/DanielJT20/Projeto-Front_End
@@ -41,7 +42,6 @@
 - O sistema deve ter uma otimização de imagens
 - O sistema não poderá ter perfil, apenas nome e curso
 - O sistema deve usar a identidade visual do Ibmec
-- Tem que ter no celular (Website)
 - Apenas o administrador vai ter um cadastro o resto é sem login
 - Dentro do repositorio
 - Usar a identidade visual do IBMEC no site
