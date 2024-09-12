@@ -24,13 +24,12 @@
 
 #  **Requistos funcionais**
 
-- O sistema precisa deve possibilitar o filtro do portifilio usando o nome do aluno
+- O sistema precisa possibilitar o filtro do portifilio usando o nome do aluno
 - O sistema precisa ter uma aba de busca
 - O sistema precisa de uma aba de navegação
-- Aparecer um quantidade de projetos e que possa carregar mais(provavelmente no fim da pagina)
-- Não existe perfil, apenas nome e curso
-- O sistema deve possuir uma descrição em cada um dos portifolios.
-- Cada aluno vai ter um portifolio 
+- O sistema deve ter um botão de carregar mais no final da pagina
+- O sistema deve possuir matricula e curso em cada portifolio de alunos
+- O sistema deve permitir que apenas o admistrador modifique informações de usuarios
 
 #  **Requisitos não funcionais**
 - O sistema deve possibilitar que apenas o administrador deverá possuir um cadastro para conseguir fazer modificações
@@ -42,8 +41,5 @@
 - O sistema deve ter uma otimização de imagens
 - O sistema não poderá ter perfil, apenas nome e curso
 - O sistema deve usar a identidade visual do Ibmec
-- Apenas o administrador vai ter um cadastro o resto é sem login
-- Dentro do repositorio
-- Usar a identidade visual do IBMEC no site
-- Não existe perfil, apenas nome e curso
-- Inicio e fim do projeto
+
+  
