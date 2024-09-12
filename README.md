@@ -29,16 +29,13 @@
 - O sistema precisa de uma aba de navegação
 - O sistema deve ter um botão de carregar mais no final da pagina
 - O sistema deve possuir matricula e curso em cada portifolio de alunos
-- O sistema deve permitir que apenas o admistrador modifique informações de usuarios
+- O sistema deve possibilitar que apenas o admistrador modifique informações de usuarios
+
 
 #  **Requisitos não funcionais**
-- O sistema deve possibilitar que apenas o administrador deverá possuir um cadastro para conseguir fazer modificações
 - O sistema precisa ser em inglês e português
 - O sistema deve ser desenvolvido usando react
 - O sistema deve estar em dispostivos Mobile
-- O sitema deve ter um tempo de carregamento otimizado
-- O sistema deve conter uma navegação intuitiva
-- O sistema deve ter uma otimização de imagens
 - O sistema não poderá ter perfil, apenas nome e curso
 - O sistema deve usar a identidade visual do Ibmec
 
