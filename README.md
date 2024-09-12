@@ -24,9 +24,10 @@
 
 #  **Requistos funcionais**
 
+- O sistema precisará de uma aba de navegação
+- O sistema deverá mostrar os projetos em sua página de navegação
 - O sistema precisará possibilitar o filtro do portifilio usando o nome do aluno
 - O sistema precisará ter uma barra de busca
-- O sistema precisará de uma aba de navegação
 - O sistema deverá ter um botão de carregar mais no final da pagina
 - O sistema deverá possuir matricula e curso em cada portifolio de alunos
 - O sistema deverá possibilitar que apenas o admistrador modifique informações de usuarios
