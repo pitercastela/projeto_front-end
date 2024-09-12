@@ -29,7 +29,7 @@
 - O sistema precisa de uma aba de navegação
 - Aparecer um quantidade de projetos e que possa carregar mais(provavelmente no fim da pagina)
 - Não existe perfil, apenas nome e curso
-- O sistema deve possuir uma descrição sobre cada portifolio.
+- O sistema deve possuir uma descrição em cada um dos portifolios.
 - Cada aluno vai ter um portifolio 
 
 #  **Requisitos não funcionais**
