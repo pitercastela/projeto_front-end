@@ -10,5 +10,5 @@ sobre nós)
 - usuário adiciona informações que não seguem o padrão base (documentação, tecnologias usadas, mais a depender do tipo de projeto)
 - usuário clica no botão "enviar projeto"
 
-pós condições:
+# pós condições:
 O projeto agora é mostrado na página principal do site

@@ -7,5 +7,5 @@ Estar logado como admininstrador
 - usuário desce a página até o final
 - usuário clica no botão "esconder projeto"
 
-pós condições:
+# pós condições:
 O projeto não é mais mostrado na página principal

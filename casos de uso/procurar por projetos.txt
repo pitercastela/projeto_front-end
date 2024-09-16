@@ -7,5 +7,5 @@ Estar no site
 - usuário pode seguir para a página seguinte para ver mais projetos
 - usuário clica em algum projeto
 
-pós condições:
+# pós condições:
 O detalhamento do projeto é aberto

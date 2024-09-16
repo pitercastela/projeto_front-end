@@ -9,5 +9,5 @@ Estar logado como admininstrador
 - usuário faz as alterações necessárias no projeto
 - usuário clica no botão "enviar projeto"
 
-pós condições:
+# pós condições:
 O projeto na página principal sofre as alterações feitas
