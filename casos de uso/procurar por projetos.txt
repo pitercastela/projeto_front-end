@@ -1,5 +1,5 @@
 # pré condições:
-estar no site
+Estar no site
 
 # fluxo principal:
 - usuário passa pelos projetos mostrados
@@ -8,4 +8,4 @@ estar no site
 - usuário clica em algum projeto
 
 pós condições:
-o detalhamento do projeto é aberto
+O detalhamento do projeto é aberto
