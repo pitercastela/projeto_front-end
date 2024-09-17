@@ -33,12 +33,14 @@
   - Cada projeto deve conter as tecnologias usadas nele.
   - Ao clicar em um projeto o usuário deve ser enviado para a página de detalhamento.
 - O sistema deve possuir uma página de detalhamento para cada um dos projetos.
-   - As páginas de detalhamento devem possuir uma descrição detalhada.
-   - As páginas de detalhamento devem possuir o nome completo dos alunos que fizeram parte do projeto.
-   - As páginas de detalhamento devem possuir a data de início e finalização (se houver) dos projetos.
-   - As páginas de detalhamento podem conter outros tipos de informação de acordo com a natureza do projeto.
-   - As páginas de detalhamento devem conter o link para a página sobre nós.
-- O sistema deve permitir o filtro do portfólio usando o nome do aluno.
+  - As páginas de detalhamento devem possuir uma descrição detalhada.
+  - As páginas de detalhamento devem possuir o nome completo dos alunos que fizeram parte do projeto.
+  - As páginas de detalhamento devem possuir a data de início e finalização (se houver) dos projetos.
+  - As páginas de detalhamento podem conter outros tipos de informação de acordo com a natureza do projeto.
+  - As páginas de detalhamento devem conter o link para a página sobre nós.
+- O sistema deve possuir filtros para a busca
+  - Os filtros devem ser mostrados por meio de caixas clicáveis
+  - Os filtros devem ser: (tecnologias, ferramentas, cursos, período, unidades)
 - O sistema deve ter uma barra de busca.
 - O sistema deve incluir um botão para carregar mais no final da página.
 - O sistema deve exibir matrícula e curso em cada portfólio de aluno.
