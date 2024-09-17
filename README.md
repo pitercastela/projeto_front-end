@@ -39,6 +39,7 @@
 - O sistema precisará ser em inglês e português
   - O sistema deve ter uma forma rapida de traduzir a pagina para inglês
 - O sistema deverá ser desenvolvido usando react
+  - As imagems estão no criterio do progamador
 - O sistema deverá estar em dispostivos Mobile
   - O sistema deve ter uma formar horizontal
   - Apareça so um projeto por linha
