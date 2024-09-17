@@ -8,7 +8,7 @@
 - Breno Chaves da Cunha - https://github.com/Brenoch/Projeto_front_end
 
 
-# **Propósito do sistema** 
+# **Propósito do sistema**
 
 - Servir como um portfólio para apresentar e dar visibilidade aos projetos feitos pelos alunos do ibmec
 
@@ -24,20 +24,22 @@
 
 #  **Requistos funcionais**
 
-- O sistema precisará de uma aba de navegação
-- O sistema deverá mostrar os projetos em sua página de navegação
-- O sistema precisará possibilitar o filtro do portifilio usando o nome do aluno
-- O sistema precisará ter uma barra de busca
-- O sistema deverá ter um botão de carregar mais no final da pagina
-- O sistema deverá possuir matricula e curso em cada portifolio de alunos
+- O sistema deve possuir uma aba de navegação
+- O sistema deve exibir os projetos na página de navegação.
+- O sistema deve permitir o filtro do portfólio usando o nome do aluno.
+- O sistema deve ter uma barra de busca.
+- O sistema deve incluir um botão para carregar mais no final da página
+- O sistema deve exibir matrícula e curso em cada portfólio de aluno.
 - O sistema deverá possibilitar que apenas o admistrador modifique informações de usuarios
+- O sistema deve permitir a visualização detalhada de um projeto ao clicar sobre ele
+- O sistema deve fornecer opções de ordenação dos projetos(por exemplo, por data,nome)
 
 
 #  **Requisitos não funcionais**
 - O sistema precisará ser em inglês e português
 - O sistema deverá ser desenvolvido usando react
 - O sistema deverá estar em dispostivos Mobile
-- O sistema deverá possuir apenas os nomes e cursos dos alunos, eles não devem possuir um perfil
+- O sistema deve exibir apenas os nomes e cursos dos alunos; não deve haver um perfil detalhado
 - O sistema deverá usar a identidade visual do Ibmec
+- O sistema deve implementar design responsivo, adaptando-se a diferentes dispositivos e tamanhos de tela
 
-  
