@@ -25,6 +25,7 @@
 #  **Requistos funcionais**
 
 - O sistema deve possuir uma pagina de navegação (página principal).
+  - A página de navegação deve possuir um link para voltar ao site do ibmec
 - O sistema deve exibir os projetos na página de navegação.
   - Os projetos devem ser mostrados por meio de linhas (quantidade a depender do tamanho da tela).
   - Cada projeto deve conter uma imagem.
@@ -40,11 +41,14 @@
   - As páginas de detalhamento devem possuir a data de início e finalização (se houver) dos projetos.
   - As páginas de detalhamento podem conter outros tipos de informação de acordo com a natureza do projeto.
   - As páginas de detalhamento devem conter o link para a página sobre nós.
+- O sistema deve possuir uma página sobre nós para cada um dos projetos.
+  - A página sobre nós deve ter uma descrição sobre cada aluno, incluindo um email de contato
 - O sistema deve possuir filtros para a busca
   - Os filtros devem ser mostrados por meio de caixas clicáveis
   - Os filtros devem ser: (tecnologias, ferramentas, cursos, período, unidades)
 - O sistema deve ter uma barra de busca.
 - O sistema deve possuir um sistema de paginação.
+  - Ao voltar da página de detalhamento, o usuário deve ser enviado para a última página da listagem que ele acessou
 - O sistema deverá possibilitar que apenas o admistrador modifique informações de usuarios.
 
 #  **Requisitos não funcionais**
