@@ -1,6 +1,6 @@
 # Projeto front-end
 
-**Nome do grupo: erro 305**
+**Nome do grupo: erro 305 (Competecia não detectada)**
  # ***Integrantes:***
 - Lucas Alves Castela Pereira - https://github.com/pitercastela/front_end
 - Daniel de Jesus Teixeira - https://github.com/DanielJT20/Projeto-Front_End
