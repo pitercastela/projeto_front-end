@@ -27,14 +27,16 @@
 - O sistema deve possuir uma pagina de navegação (página principal).
 - O sistema deve exibir os projetos na página de navegação.
   - Os projetos devem ser mostrados por meio de linhas (quantidade a depender do tamanho da tela).
-  - Cada projeto deve conter ao menos uma imagem.
+  - Cada projeto deve conter uma imagem.
   - Cada projeto deve conter uma versão reduzida do nome de seus integrantes.
   - Cada projeto deve conter uma descrição reduzida.
   - Cada projeto deve conter as tecnologias usadas nele.
   - Ao clicar em um projeto o usuário deve ser enviado para a página de detalhamento.
+- O sistema deve fornecer opções de ordenação dos projetos
+  - O usuário deve ser capaz de ordenar a ordem a qual os projetos aparecem (data, nome)
 - O sistema deve possuir uma página de detalhamento para cada um dos projetos.
   - As páginas de detalhamento devem possuir uma descrição detalhada.
-  - As páginas de detalhamento devem possuir o nome completo dos alunos que fizeram parte do projeto.
+  - As páginas de detalhamento devem possuir(nome completo, matrícula, curso) dos alunos que fizeram parte do projeto.
   - As páginas de detalhamento devem possuir a data de início e finalização (se houver) dos projetos.
   - As páginas de detalhamento podem conter outros tipos de informação de acordo com a natureza do projeto.
   - As páginas de detalhamento devem conter o link para a página sobre nós.
@@ -42,11 +44,8 @@
   - Os filtros devem ser mostrados por meio de caixas clicáveis
   - Os filtros devem ser: (tecnologias, ferramentas, cursos, período, unidades)
 - O sistema deve ter uma barra de busca.
-- O sistema deve incluir um botão para carregar mais no final da página.
-- O sistema deve exibir matrícula e curso em cada portfólio de aluno.
+- O sistema deve possuir um sistema de paginação.
 - O sistema deverá possibilitar que apenas o admistrador modifique informações de usuarios.
-- O sistema deve permitir a visualização detalhada de um projeto ao clicar sobre ele.
-- O sistema deve fornecer opções de ordenação dos projetos(por exemplo, por data,nome).
 
 #  **Requisitos não funcionais**
 - O sistema precisará ser em inglês e português
