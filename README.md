@@ -34,10 +34,16 @@
 
 
 #  **Requisitos não funcionais**
-- O sistema precisará ser em inglês e português
+- O sistema precisará ser em inglês e português  
+   - O sistema precisa de uma forma rápida de tradução ao ingles?
+   - Deseja duas paginas diferentes com uma idiomas estando em inglês e a outra em português?
 - O sistema deverá ser desenvolvido usando react
+   - Gostaria de algum tipo de fonte de texto em especifico?
 - O sistema deverá estar em dispostivos Mobile
+   - Gostaria que a pagina tivesse uma forma horizontal?
 - O sistema deverá possuir apenas os nomes e cursos dos alunos, eles não devem possuir um perfil
+   - Gostaria que o nome seja completo ou so o nome e um sobrenome?
 - O sistema deverá usar a identidade visual do Ibmec
+   - O sistema precisa de usar todas as caracteristicas da identidade visual do IBMEC?
 
   
