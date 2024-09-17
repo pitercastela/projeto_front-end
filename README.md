@@ -49,11 +49,15 @@
 - O sistema deve ter uma barra de busca.
 - O sistema deve possuir um sistema de paginação.
   - Ao voltar da página de detalhamento, o usuário deve ser enviado para a última página da listagem que ele acessou
-- O sistema deverá possibilitar que apenas o admistrador modifique informações de usuarios.
+- O sistema deverá possibilitar que apenas o administrador modifique informações de usuarios.
+  - O administrador deve ser capaz de logar através de um link especial
+  - O administrador deve logar usando um login e senha especial dado a ele
+  - O administrador deve ser capaz de deslogar usando um botão na página de navegação
+  - Este botão só deve aparecer se o usuário estiver logado como administrador
 
 #  **Requisitos não funcionais**
 - O sistema precisará ser em inglês e português
-  - O sistema deve ter uma forma rapida de traduzir a pagina para inglês
+  - O sistema deve ter um botão ná página inicial que muda o idioma
 - O sistema deverá ser desenvolvido usando react
   - As imagems estão no criterio do progamador
 - O sistema deverá estar em dispostivos Mobile
