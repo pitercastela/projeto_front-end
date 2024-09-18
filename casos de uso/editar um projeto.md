@@ -1,13 +1,13 @@
-# pré condições:
-Estar no site
-Estar logado como admininstrador
+# Pré condições:
+-- Estar no site
+-- Estar logado como admininstrador
 
-# fluxo principal:
-- usuário busca o projeto que deseja ser removido
-- usuário desce a página até o final
-- usuário clica no botão "editar projeto"
-- usuário faz as alterações necessárias no projeto
-- usuário clica no botão "enviar projeto"
+# Fluxo principal:
+- Usuário busca o projeto que deseja ser removido
+- Usuário desce a página até o final
+- Usuário clica no botão "editar projeto"
+- Usuário faz as alterações necessárias no projeto
+- Usuário clica no botão "enviar projeto"
 
-# pós condições:
+# Pós condições:
 O projeto na página principal sofre as alterações feitas
