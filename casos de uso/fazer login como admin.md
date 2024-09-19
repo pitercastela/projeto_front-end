@@ -1,6 +1,6 @@
 # pré condições:
-Ter acesso a um login e senha de admininstrador
-Ter acesso ao link da página de login de admininstrador
+- Ter acesso a um login e senha de admininstrador
+- Ter acesso ao link da página de login de admininstrador
 
 # fluxo principal:
 - usuário entra no link da página de login de admininstrador

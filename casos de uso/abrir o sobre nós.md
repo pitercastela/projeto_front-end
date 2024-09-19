@@ -1,6 +1,6 @@
 # pré condições:
-Estar no site
-Estar na página de detalhamento de um projeto
+- Estar no site
+- Estar na página de detalhamento de um projeto
 
 # fluxo principal:
 - usuário passa pelas informações do projeto

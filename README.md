@@ -38,6 +38,7 @@
 - O sistema deve possuir uma página de detalhamento para cada um dos projetos.
   - As páginas de detalhamento devem possuir uma descrição detalhada.
   - As páginas de detalhamento devem possuir(nome completo, matrícula, curso) dos alunos que fizeram parte do projeto.
+  - Também deve ser mostrado qual era o papel e o vínculo do aluno com o Ibmec na época em que fez o projeto
   - As páginas de detalhamento devem possuir a data de início e finalização (se houver) dos projetos.
   - As páginas de detalhamento podem conter outros tipos de informação de acordo com a natureza do projeto.
   - As páginas de detalhamento devem conter o link para a página sobre nós.

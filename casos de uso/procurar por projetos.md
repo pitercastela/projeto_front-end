@@ -1,5 +1,5 @@
 # pré condições:
-Estar no site
+- Estar no site
 
 # fluxo principal:
 - usuário passa pelos projetos mostrados
