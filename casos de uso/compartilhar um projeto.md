@@ -1,3 +1,6 @@
+# Atores:  
+-Admin e usuarios
+
 # Pré condições:
 - Estar no site
 - Estar no detalhamento de um projeto
