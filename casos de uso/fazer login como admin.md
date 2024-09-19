@@ -1,6 +1,8 @@
+# Atores:  
+- Usuario
+
 # Pré condições:
-- Ter acesso a um login e senha de admininstrador ja cadastrados
-- Ter acesso ao link da página de login de admininstrador
+- Estar na pagina de login de admin
 
 # Fluxo principal:
 - Usuário entra no link da página de login de admininstrador
