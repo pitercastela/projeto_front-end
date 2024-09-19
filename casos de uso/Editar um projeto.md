@@ -1,6 +1,8 @@
+# Atores:
+- Administrador
+
 # Pré condições:
-- Estar no site
-- Estar logado como admininstrador
+- Estar na página de editar um projeto
 
 # Fluxo principal:
 - Usuário busca o projeto que deseja ser removido
