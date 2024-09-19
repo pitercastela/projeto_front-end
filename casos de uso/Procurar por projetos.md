@@ -1,5 +1,8 @@
+# Atores:
+- Admin e usuario
+
 # Pré condições:
-- Estar no site
+- O sistema estar na pagina de navegação
 
 # Fluxo principal:
 - Usuário passa pelos projetos mostrados
