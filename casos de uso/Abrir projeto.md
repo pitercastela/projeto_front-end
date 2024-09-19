@@ -1,5 +1,8 @@
+# Atores:
+- Usuários e Administrador
+
 # Pré condições:
-- Estar no site
+- Sistema se encontrar no página principal em que estão os projetos
 
 # Fluxo principal:
 - Usuário passa pela descrição do projeto
