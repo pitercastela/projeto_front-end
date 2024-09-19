@@ -1,5 +1,7 @@
+# Atores:
+-Admin
+
 # Pré condições:
-- Estar no site
 - Estar logado como admininstrador
 
 # Fluxo principal:
