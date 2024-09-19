@@ -8,5 +8,5 @@
 - Administrador clica no botão "sair"
 
 # Pós condições:
-- O usuário está na página principal não mais logado como admininstrador
+- O sistema se encontra na página principal
 
