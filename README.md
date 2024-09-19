@@ -61,6 +61,7 @@
   - O sistema deve ter um botão ná página inicial que muda o idioma
 - O sistema deverá ser desenvolvido usando react
   - As imagems estão no criterio do progamador
+  - o sistema tambem tem que ter as cores principais do IBMEC(azul e amarelo)
 - O sistema deverá estar em dispostivos Mobile
   - O sistema deve ter uma formar horizontal
   - Apareça so um projeto por linha
