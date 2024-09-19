@@ -8,4 +8,4 @@
 - Usuário clica no botão "esconder projeto"
 
 # Pós condições:
-O projeto não é mais mostrado na página principal para usuários comuns e exibe uma tag de projeto escondido 
+- O projeto não é mais mostrado na página principal para usuários comuns e exibe uma tag de projeto escondido

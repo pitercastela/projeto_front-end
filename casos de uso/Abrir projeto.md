@@ -6,4 +6,4 @@
 - Usuário clica no botão mais informações
 
 # Pós condições:
-A página de informações detalhadas do projeto é aberta
+- A página de informações detalhadas do projeto é aberta

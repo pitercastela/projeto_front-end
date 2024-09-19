@@ -8,4 +8,4 @@
 - Usuário clica no botão "logar-se"
 
 # Pós condições:
-O usuário agora está na página principal logado como adminintrador
+- O usuário agora está na página principal logado como adminintrador

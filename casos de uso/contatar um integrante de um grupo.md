@@ -8,4 +8,4 @@
 - usuário copia o email do aluno disponível na página
 
 # Pós condições:
-O usuário tem uma forma de contatar o aluno
+- O usuário tem uma forma de contatar o aluno

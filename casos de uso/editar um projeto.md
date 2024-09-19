@@ -10,4 +10,4 @@
 - Usuário clica no botão "enviar projeto"
 
 # Pós condições:
-O projeto na página principal sofre as alterações feitas
+- O projeto na página principal sofre as alterações feitas

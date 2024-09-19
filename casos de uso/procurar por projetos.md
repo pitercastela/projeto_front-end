@@ -7,4 +7,4 @@
 - Usuário pode seguir para a página seguinte para ver mais projetos
 
 # Pós condições:
-O detalhamento do projeto é aberto
+- O detalhamento do projeto é aberto

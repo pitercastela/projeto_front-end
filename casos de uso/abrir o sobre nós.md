@@ -7,4 +7,4 @@
 - Usuário clica no botão sobre nós
 
 # Pós condições:
-O sobre nós do projeto é aberto
+- O sobre nós do projeto é aberto

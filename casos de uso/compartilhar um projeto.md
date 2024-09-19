@@ -7,4 +7,4 @@
 - usuário pode também apaertar um botão para copiar o endereço da página
 
 # Pós condições:
-O detalhamento do projeto é aberto
+- O detalhamento do projeto é aberto
