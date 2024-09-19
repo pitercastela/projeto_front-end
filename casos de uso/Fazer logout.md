@@ -1,5 +1,5 @@
 # Atores:
--Admin
+- Admin
 
 # Pré condições:
 - Estar logado como admininstrador
