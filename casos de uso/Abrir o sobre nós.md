@@ -1,5 +1,7 @@
+# Atores:
+- Usuários e Administrador
+
 # Pré condições:
-- Estar no site
 - Estar na página de detalhamento de um projeto
 
 # Fluxo principal:
