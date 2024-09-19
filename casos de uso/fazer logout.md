@@ -6,4 +6,4 @@
 - Usuário clica no botão "sair"
 
 # pós condições:
-- O usuário está na página principal não mais logado como admininstrador
+O usuário está na página principal não mais logado como admininstrador

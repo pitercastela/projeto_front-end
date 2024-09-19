@@ -11,4 +11,4 @@ sobre nós)
 - Usuário clica no botão "enviar projeto"
 
 # Pós condições:
-- O projeto agora é mostrado na página principal do site
+O projeto agora é mostrado na página principal do site
