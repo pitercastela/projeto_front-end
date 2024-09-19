@@ -1,6 +1,8 @@
+# Atores:
+- Administrador
+
 # Pré condições:
-- Estar no site
-- Estar logado como admininstrador
+- Sistema estar na página de adicionar um projeto
 
 # Fluxo principal:
 - Usuário clica em um botão para adicionar um novo projeto
