@@ -1,6 +1,6 @@
 # Pré condições:
-- - Estar no site
-- - Estar logado como admininstrador
+- Estar no site
+- Estar logado como admininstrador
 
 # Fluxo principal:
 - Usuário busca o projeto que deseja ser removido

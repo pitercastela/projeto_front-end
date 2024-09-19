@@ -1,8 +1,8 @@
-# pré condições:
+# Pré condições:
 - Estar no site
 
-# fluxo principal:
+# Fluxo principal:
 - usuário pesquisa pelo nome do aluno desejado
 
-# pós condições:
+# Pós condições:
 Os projetos feitos por aquele aluno são mostrados
