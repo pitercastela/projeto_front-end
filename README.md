@@ -41,9 +41,9 @@
   - Também deve ser mostrado qual era o papel e o vínculo do aluno com o Ibmec na época em que fez o projeto
   - As páginas de detalhamento devem possuir a data de início e finalização (se houver) dos projetos.
   - As páginas de detalhamento podem conter outros tipos de informação de acordo com a natureza do projeto.
-  - As páginas de detalhamento devem conter o link para a página sobre nós.
-- O sistema deve possuir uma página sobre nós para cada um dos projetos.
-  - A página sobre nós deve ter uma descrição sobre cada aluno, incluindo um email de contato
+  - As páginas de detalhamento devem conter uma sessão "Sobre nós".
+- O sistema deve possuir uma sessão "Sobre nós" para cada um dos projetos.
+  - A sessão "Sobre nós" deve ter uma descrição sobre cada aluno, incluindo um email de contato
 - O sistema deve possuir filtros para a busca
   - Os filtros devem ser mostrados por meio de caixas clicáveis
   - Os filtros devem ser: (tecnologias, ferramentas, cursos, período, unidades)
