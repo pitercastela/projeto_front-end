@@ -1,3 +1,5 @@
+# Fazer logout
+
 # Atores:
 - Administrador
 
