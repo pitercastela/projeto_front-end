@@ -1,3 +1,5 @@
+# Ver o Sobre nós
+
 # Atores:
 - Usuários e Administrador
 
@@ -6,7 +8,7 @@
 
 # Fluxo principal:
 - Usuário passa pelas informações do projeto
-- Usuário clica no botão sobre nós
+- Usuário desce até a seção "Sobre nós"
 
 # Pós condições:
 - O sobre nós do projeto é aberto
