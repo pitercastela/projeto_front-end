@@ -38,7 +38,7 @@
 - O sistema deve possuir uma página de detalhamento para cada um dos projetos.
   - As páginas de detalhamento devem possuir uma descrição detalhada.
   - As páginas de detalhamento devem possuir(nome completo, matrícula, curso) dos alunos que fizeram parte do projeto.
-  - Também deve ser mostrado qual era o papel e o vínculo do aluno com o Ibmec na época em que fez o projeto
+  - As páginas de detalhamento devem possuir o papel e o vínculo do aluno com o Ibmec na época em que fez o projeto
   - As páginas de detalhamento devem possuir a data de início e finalização (se houver) dos projetos.
   - As páginas de detalhamento podem conter outros tipos de informação de acordo com a natureza do projeto.
   - As páginas de detalhamento devem conter uma sessão "Sobre nós".
@@ -54,7 +54,7 @@
   - O administrador deve ser capaz de logar através de um link especial
   - O administrador deve logar usando um login e senha especial dado a ele
   - O administrador deve ser capaz de deslogar usando um botão na página de navegação
-  - Este botão só deve aparecer se o usuário estiver logado como administrador
+  - O botão para o administrador deslogar só deve aparecer se o usuário estiver logado como administrador
 
 #  **Requisitos não funcionais**
 - O sistema precisará ser em inglês e português
@@ -64,9 +64,8 @@
   - o sistema tambem tem que ter as cores principais do IBMEC(azul e amarelo)
 - O sistema deverá estar em dispostivos Mobile
   - O sistema deve ter uma formar horizontal
-  - Apareça so um projeto por linha
 - O sistema deverá possuir apenas os nomes e cursos dos alunos, eles não devem possuir um perfil
-  - na pagina geral mostarar o nome encurtado dos alunos (nome e um sobrenome) e na pagina de detalhamento estar o nome completo
+  - Na pagina principal deve mostarar o nome encurtado dos alunos (nome e um sobrenome) e na pagina de detalhamento o nome completo
 - O sistema deverá usar a identidade visual do Ibmec
 
 
