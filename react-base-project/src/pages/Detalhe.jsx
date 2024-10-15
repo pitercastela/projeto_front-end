@@ -9,12 +9,15 @@ return(
 
     <h1>teste muito foda</h1>
 
-<GridContainer>
+
+<div><GridContainer>
     1
 </GridContainer>
 <GridContainer>
     1
-</GridContainer>
+</GridContainer></div>
+
+
 
     </Base>
 

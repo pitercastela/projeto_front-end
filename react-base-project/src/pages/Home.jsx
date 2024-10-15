@@ -2,6 +2,8 @@ import { onAuthStateChanged } from "firebase/auth"
 import Base from "./Base"
 import { auth } from "../config/Firebase";
 import { useEffect } from "react";
+import { Container } from "../components/GridContainer/style";
+import Flex from "../components/Flex/Flex";
 
 const Home = () => {
 
@@ -21,6 +23,12 @@ const Home = () => {
       <h1>
      Aplicação React Base
       </h1>
+
+<Container>1</Container>
+<Container>1</Container>
+
+
+
     </Base>
   )
 }

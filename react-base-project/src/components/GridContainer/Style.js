@@ -1,18 +1,13 @@
 import styled from "styled-components"
 
 const Container = styled.div`
-
-display: grid;
-  height: 40px;
-  align-content: end;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+    display:flex;
+    flex-direction: row;
+    height: 350px;
+    width: 500px;
+    background-color: blue;
+    margin: 10px;
+align-items: center
 `
 
 export { Container }
