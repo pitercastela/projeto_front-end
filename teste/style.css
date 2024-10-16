@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  /* CSS HSL */
+  /* https://coolors.co/ */
+
+/*  --primaria: hsla(210, 67%, 43%, 1);
+  --background: hsla(108, 22%, 87%, 1);
+  --secundaria: hsla(34, 100%, 50%, 1);
+  --destaque: hsla(355, 78%, 56%, 1);
+  --detalhe: hsla(9, 63%, 45%, 1);
+*/
+
+  --primaria: rgb(118, 118, 118);
+  --background: rgb(177, 177, 177);
+  --secundaria: rgb(255, 255, 255);
+  --destaque: rgb(255, 196, 0);
+  --detalhe:rgb(3, 0, 203);
+}
+
+/* borda vermelha em todos os elementos para debug */
+/** {
+  outline: red solid 1px;
+}*/
+
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  background-color: var(--background);
+  color:var(--primaria);
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+div.container {
+  padding: 1rem;
+  
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+/*Parte de cima*/
+header{
+  background-color: var(--secundaria);
+  margin-bottom: 30px;
+  margin-top: -10px;
+  color: var(--secundaria);
+  height: 210px ;
+  width: 100%;
+}
+
+/*logo ibmec*/
+img{
+  width: 130px;
+  height: 48px;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+/*Barra de pesquisa*/
+.pesquisa{
+  background-color: var(--background);
+  margin-left: 120px;
+  margin-top: -50px;
+  width: 50%;
+  height: 27px;
+  border-radius: 20px;
+  padding-left: 15px;
+  color: var(--primaria);
+  padding-top: 3px;
+  border: none;
+}
+
+/*Botão de trocar linguagem*/
+.lang{
+  background-color: var(--detalhe);
+  margin-left: 70px;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: var(--destaque);
+}
+
+/*Barra com filtros*/
+#barra{
+  background-color: var(--detalhe);
+  padding: 16px;
+  margin-top: 25px;
+  width: 95%;
+  height: 30px;
+  font-size: 30px;
+}
+
+/*botões de Filtros*/
+button{ 
+  margin-left: 40px;
+  background-color: var(--secundaria);
+  color: rgba(0, 0, 0, 0.831);
+  width: 150px;
+  height: 26px;
+  border-radius: 4px;
+  text-align: center;
+  border: 0.5px solid var(--primaria);
+}
+
+
+/*Config geral dos cards*/
+div{
+  display: inline-block;
+  grid-template-columns: 3fr 3fr;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 380px;
+  background-color: var(--primaria);
+  margin: 18px;
+  border-radius: 5px;
+}
+  
+/*Faixa de cima dos cards*/
+.top{
+  border-radius: 5px 5px 0px 0px;
+  background-color: var(--secundaria);
+  width: 96.25%;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: 0px;
+  color: black;
+  padding: 5px;
+  padding-left: 10px;
+}
+  
+/*Faixa de baixo dos cards*/
+.down{
+  border-radius: 0px 0px 5px 5px;
+  background-color: var(--secundaria);
+  width: 100%;
+  color: black;
+  text-align: center;
+  height: 20px;
+  margin-top: 180px;
+  margin-left: -10px;
+  padding: 5px;
+  padding-left: 10px;
+}
