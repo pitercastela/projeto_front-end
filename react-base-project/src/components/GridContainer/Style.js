@@ -1,17 +1,19 @@
 import styled from "styled-components"
 
 const Container = styled.div`
-    display: inline-block;
-    grid-template-columns: 2fr 2fr;
-    justify-content: center;
-    align-items: center;
-    height: 350px;
-    width: 500px;
-    background-color: blue;
-    margin: 10px;
+     display: inline-block;
+  grid-template-columns: 3fr 3fr;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 410px;
+  background-color: var(--primaria);
+  margin: 25px;
+  border-radius: 5px;
 `
 
-export { Container }
+export { Container}
+
 
 
 

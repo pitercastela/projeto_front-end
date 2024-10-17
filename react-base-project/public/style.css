@@ -13,11 +13,17 @@
   --detalhe: hsla(9, 63%, 45%, 1);
 */
 
-  --primaria: hsla(0, 1%, 20%, 1);
+--primaria: rgb(118, 118, 118);
+  --background: rgb(177, 177, 177);
+  --secundaria: rgb(255, 255, 255);
+  --destaque: rgb(255, 196, 0);
+  --detalhe:rgb(3, 0, 203);
+
+/*   --primaria: hsla(0, 1%, 20%, 1);
   --background: hsla(81, 21%, 74%, 1);
   --secundaria: hsla(135, 7%, 64%, 1);
   --destaque: hsla(8, 34%, 54%, 1);
-  --detalhe:hsla(241, 96%, 72%, 1);
+  --detalhe:hsla(241, 96%, 72%, 1); */
 }
 
 /* borda vermelha em todos os elementos para debug */
@@ -42,4 +48,26 @@ div.container {
 
 h1,h2,h3,h4,h5,h6{
   margin: 0;
+}
+#barra{
+  background-color: var(--detalhe);
+  padding: 16px;
+  margin-top: 25px;
+  width: 95%;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 12px;
+  color: var(--secundaria);
+}
+
+/*botões de Filtros*/
+button{ 
+  margin-left: 70px;
+  background-color: var(--secundaria);
+  color: rgba(0, 0, 0, 0.831);
+  width: 150px;
+  height: 26px;
+  border-radius: 6px;
+  text-align: center;
+  border: 0.5px solid var(--primaria);
 }

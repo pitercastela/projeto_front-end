@@ -4,6 +4,8 @@ import { auth } from "../config/Firebase";
 import { useEffect } from "react";
 import { Container } from "../components/GridContainer/style";
 import Flex from "../components/Flex/Flex";
+import { Top_card } from "../components/Top_card/Style";
+import { Down_card } from "../components/Down_card/Style";
 
 const Home = () => {
 
@@ -20,13 +22,16 @@ const Home = () => {
 
   return (
     <Base>
-      <h1>
-     Aplicação React Base
-      </h1>
+     
 
-<Container>1</Container>
-<Container>1</Container>
-
+<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
 
 
     </Base>
