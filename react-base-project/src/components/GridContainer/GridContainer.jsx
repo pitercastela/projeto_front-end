@@ -1,13 +1,14 @@
-import { Container } from "./style"
+import { Container } from "./style";
+
 
 const GridContainer = (props) => (
 
-<Container>
+    <Container>
 
-    {props.children}
-</Container>
+        {props.children}
+    </Container>
 
 
-)
+    )
 
-export default GridContainer;
+    export default GridContainer;

@@ -28,9 +28,10 @@ root.render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/fotos" element={<Fotos/>} />
+        <Route path="/fotos/:id" element={<Fotos/>} />
         <Route path="/atletas" element={<Atletas/>} />
         <Route path="/detalhes" element={<Detalhe/>} />
+        <Route path="/detalhes/:id" element={<Detalhe/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/logout" element={<Logout/>} />
       </Routes>
