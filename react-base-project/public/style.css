@@ -58,6 +58,7 @@ h1,h2,h3,h4,h5,h6{
   font-size: 30px;
   border-radius: 12px;
   color: var(--secundaria);
+  
 }
 
 /*botões de Filtros*/
@@ -70,4 +71,18 @@ button{
   border-radius: 6px;
   text-align: center;
   border: 0.5px solid var(--primaria);
+}
+
+/* botão de tradução */
+#tradu{
+  height: 42px;
+  width: 198px;
+  color: var(--destaque);
+  background-color: var(--detalhe);
+  border-radius: 12px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  text-align: center;
 }
