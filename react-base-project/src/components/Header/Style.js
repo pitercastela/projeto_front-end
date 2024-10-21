@@ -1,28 +1,29 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-const Top = styled.header`
-  padding: .5em 2em;
-  background-color: var(--secundaria);
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  height: 140px;
-  a {
-    text-align: center;
-    padding: .3em;
-    margin: 0 .7em;
-    min-width: 5em;
-    background-color: var(--background);
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--detalhe);
-    text-transform: uppercase;
-    /*border-radius: .3em;*/
-    &:hover{
-      background-color: var(--destaque);
-      color: var(--secundaria);
-    }
+export const Top = styled.header`
+    padding: 20px;
+
+    #barra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
   }
-`
 
-export {Top}
+  .filtrar-text {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  select {
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 1px solid #ccc; 
+  }
+  .filter-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+`;
