@@ -4,6 +4,15 @@ import { Top } from "./Style";
 const Header = () => (
   <Top>
 
+    <input id="pesquisar" placeholder="Pesquisa"/>
+
+    <img id="logoibmec" src="/imagens/logo-ibmec.jpg"></img>
+
+    <select id='select-tradu'>
+        <option value="">Português</option>
+        <option value= "Inglês">Inglês</option>
+    </select>
+
 <div id="barra">Filtrar por:
     <select>
         <option value="">Ferramentas</option>
