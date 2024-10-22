@@ -19,11 +19,14 @@ export const Top = styled.header`
     padding: 5px;
     font-size: 17px;
     border-radius: 8px;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
   }
   .filter-label {
   margin-right: 10px;
   font-weight: bold;
 }
+
+
+
 
 `;

@@ -24,14 +24,14 @@ const Home = () => {
     <Base>
 
 
-<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
-<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
-<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
-<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
-<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
-<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
-<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
-<Container><Top_card>Projeto: </Top_card><Down_card>Setinha</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>▼</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>▼</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>▼</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>▼</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>▼</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>▼</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>▼</Down_card></Container>
+<Container><Top_card>Projeto: </Top_card><Down_card>▼</Down_card></Container>
 
 
     </Base>

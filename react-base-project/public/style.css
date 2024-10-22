@@ -17,7 +17,7 @@
   --background: rgb(177, 177, 177);
   --secundaria: rgb(255, 255, 255);
   --destaque: rgb(255, 196, 0);
-  --detalhe:rgb(3, 0, 203);
+  --detalhe:rgb(26, 42, 79);
 
 /*   --primaria: hsla(0, 1%, 20%, 1);
   --background: hsla(81, 21%, 74%, 1);
@@ -58,11 +58,11 @@ h1,h2,h3,h4,h5,h6{
   font-size: 30px;
   border-radius: 12px;
   color: var(--secundaria);
-  
+
 }
 
 /*botões de Filtros*/
-button{ 
+button{
   margin-left: 70px;
   background-color: var(--secundaria);
   color: rgba(0, 0, 0, 0.831);

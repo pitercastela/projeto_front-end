@@ -17,7 +17,7 @@
   --background: rgb(177, 177, 177);
   --secundaria: rgb(255, 255, 255);
   --destaque: rgb(255, 196, 0);
-  --detalhe:rgb(3, 0, 203);
+  --detalhe:rgb(26, 42, 79);
 }
 
 /* borda vermelha em todos os elementos para debug */
@@ -38,7 +38,7 @@ a {
 
 div.container {
   padding: 1rem;
-  
+
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -100,7 +100,7 @@ img{
 }
 
 /*botões de Filtros*/
-button{ 
+button{
   margin-left: 40px;
   background-color: var(--secundaria);
   color: rgba(0, 0, 0, 0.831);
@@ -124,7 +124,7 @@ div{
   margin: 18px;
   border-radius: 5px;
 }
-  
+
 /*Faixa de cima dos cards*/
 .top{
   border-radius: 5px 5px 0px 0px;
@@ -137,7 +137,7 @@ div{
   padding: 5px;
   padding-left: 10px;
 }
-  
+
 /*Faixa de baixo dos cards*/
 .down{
   border-radius: 0px 0px 5px 5px;
