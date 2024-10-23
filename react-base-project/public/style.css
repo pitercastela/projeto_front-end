@@ -38,10 +38,11 @@
 
 }
 
-/* borda vermelha em todos os elementos para debug */
-/** {
+/* borda vermelha em todos os elementos para debug
+* {
   outline: red solid 1px;
-}*/
+}
+*/
 
 body {
   margin: 0;
@@ -54,8 +55,17 @@ a {
   font-family: 'Roboto', sans-serif;
 }
 
-div.container {
+.container {
   padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/* botão dos cards, não sei por que está essa div, só sei q é e não tem oq fazer :(*/
+.WJyrk button{
+  margin: 0 auto;
 }
 
 h1,h2,h3,h4,h5,h6{
