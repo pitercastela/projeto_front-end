@@ -57,11 +57,11 @@ export const Top = styled.header`
     height: 39px;
     width: 730px;
     display: center;
-    place-items: center;
+    place-items: auto;
     font-size: 24px;
     background-color: var(--background);
     border-radius: 12px;
-
+    padding-right: 40px
   }
 
 `;

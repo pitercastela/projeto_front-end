@@ -6,7 +6,7 @@ import { Container } from "../components/GridContainer/style";
 import Flex from "../components/Flex/Flex";
 import { Top_card } from "../components/Top_card/Style";
 import { Down_card } from "../components/Down_card/Style";
-
+import styled from "styled-components";
 const Home = () => {
 
 /* useEffect(()=> {
@@ -19,6 +19,11 @@ const Home = () => {
     })
   },[]) */
 
+
+
+  const Botao2 =styled.div`
+  text-decoration:none;
+  `;
 
   const [activeCards, setActiveCards] = useState(Array(8).fill(false)); // nesse (array) quanto maior o numero, mais cards vai ter :)
 
@@ -34,15 +39,16 @@ const Home = () => {
         <Container key={index}>
           <Top_card>Projeto: </Top_card>
           <Down_card>
-            <button onClick={() => toggleCard(index)}>
+            <Botao2 onClick={() => toggleCard(index)}>
               {isActive ? '▲' : '▼'}
-            </button>
+            </Botao2  >
             <div className={`card ${isActive ? 'active' : ''}`}>
               {isActive && <p>Informações sobre o projeto</p>}
             </div>
           </Down_card>
         </Container>
       ))}
+
     </Base>
   );
 };
