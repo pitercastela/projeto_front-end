@@ -24,6 +24,18 @@
   --secundaria: hsla(135, 7%, 64%, 1);
   --destaque: hsla(8, 34%, 54%, 1);
   --detalhe:hsla(241, 96%, 72%, 1); */
+
+
+  ::-webkit-scrollbar{
+  width:17px ;
+
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: var(--detalhe);
+    border-radius: 20px;
+  }
+
+
 }
 
 /* borda vermelha em todos os elementos para debug */
@@ -86,3 +98,4 @@ button{
   font-size: 30px;
   text-align: center;
 }
+

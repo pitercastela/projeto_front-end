@@ -7,9 +7,8 @@ export const Top = styled.header`
     #barra {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 60px;
-    margin-top: 75px;
+    margin-top: 5;
   }
 
   .filtrar-text {
@@ -35,8 +34,8 @@ export const Top = styled.header`
     background-color: var(--detalhe);
     border-radius: 12px;
     position: absolute;
-    top: 20px;
-    right: 10px;
+    top: 50px;
+    right: 70px;
     font-size: 25px;
     text-align: center;
   }
@@ -49,18 +48,20 @@ export const Top = styled.header`
   #logoibmec{
     height: 58px;
     width: 158px;
-    top: 20px;
+    top: 30px;
     left: 20px;
-    align-items: flex-start; 
+    align-items: flex-start;
   }
 
   #pesquisar{
     height: 39px;
     width: 730px;
-    display: flex;
+    display: center;
     place-items: center;
     font-size: 24px;
     background-color: var(--background);
     border-radius: 12px;
+
   }
+
 `;

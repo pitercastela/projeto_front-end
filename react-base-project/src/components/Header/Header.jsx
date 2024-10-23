@@ -4,9 +4,11 @@ import { Top } from "./Style";
 const Header = () => (
   <Top>
 
-    <input id="pesquisar" placeholder="Pesquisa"/>
+    <a href="https://www.ibmec.br" target="ibmec" >
+    <img id="logoibmec" src="/imagens/logo-ibmec.jpg" alt="Logo IBMEC" style={{ cursor: 'pointer' }} />
+    </a>
 
-    <img id="logoibmec" src="/imagens/logo-ibmec.jpg"></img>
+  <input id="pesquisar" placeholder="Pesquisa"/>
 
     <select id='select-tradu'>
         <option value="">Português</option>
