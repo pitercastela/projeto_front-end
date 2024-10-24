@@ -10,15 +10,14 @@ const Header = () => (
 
   <input id="pesquisar" placeholder="Pesquisa"/>
 
-    <select id='select-tradu'>
+    <select id='select-tradu' >
         <option value="">Português</option>
         <option value= "Inglês">Inglês</option>
     </select>
    
     <div id="barra">Filtrar por:
-        <select>
-        
-            <option value="">Ferramentas</option>
+        <select >
+            <option value="Ferramentas">Ferramentas</option>
             <option value="ferramenta1">React</option>
             <option value="ferramenta2">Vue</option>
             <option value="ferramenta3">Ferramenta 3</option>

@@ -113,10 +113,13 @@ button{
   width: 30px;
   height: 30px;
   margin-top: -3px;
+  cursor: pointer;
+  margin-bottom: 4vh;
 }
 
 #setaocima{
   width: 30px;
   height: 30px;
-  margin-top: -4px;
+  margin-top: -10vh;
+  cursor: pointer;
 }

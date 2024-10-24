@@ -43,12 +43,13 @@ const Home = () => {
         <Container key={index}>
           <Top_card>Projeto: </Top_card>
           <Down_card>
-            <Botao2 onClick={() => toggleCard(index)}>
-              {isActive ? <IoIosArrowUp id='setaocima'/> : <IoIosArrowDown id='setaobaixo' />}
-            </Botao2  >
-            <div className={`card ${isActive ? 'active' : ''}`}>
-              {isActive && <p>Informações sobre o projeto</p>}
-            </div>
+          <div className={`card ${isActive ? 'active' : ''}`}>
+              {isActive && <p style={{background: 'var(--secundaria)' , width: '28vw', height: '180px' , borderRadius: '0px 0px 5px 5px' , marginLeft: '-5px'}}>Informações sobre o projeto </p>}
+              </div>
+          <Botao2 onClick={() => toggleCard(index)}>
+                {isActive ? <IoIosArrowUp id='setaocima'/> : <IoIosArrowDown id='setaobaixo'/>}
+              </Botao2  >
+          
           </Down_card>
         </Container>
       ))}

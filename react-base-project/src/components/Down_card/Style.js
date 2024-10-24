@@ -9,7 +9,7 @@ text-align: center;
 height: 20px;
 margin-top: 200px;
 padding: 5px;
-
+margin-bottom: 2vh;
 `
 
 export { Down_card }
