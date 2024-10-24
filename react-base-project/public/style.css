@@ -109,3 +109,14 @@ button{
   text-align: center;
 }
 
+#setaobaixo{
+  width: 30px;
+  height: 30px;
+  margin-top: -3px;
+}
+
+#setaocima{
+  width: 30px;
+  height: 30px;
+  margin-top: -4px;
+}

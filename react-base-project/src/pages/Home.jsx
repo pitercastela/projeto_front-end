@@ -8,6 +8,8 @@ import { Top_card } from "../components/Top_card/Style";
 import { Down_card } from "../components/Down_card/Style";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
 const Home = () => {
 
 /* useEffect(()=> {
@@ -42,7 +44,7 @@ const Home = () => {
           <Top_card>Projeto: </Top_card>
           <Down_card>
             <Botao2 onClick={() => toggleCard(index)}>
-              {isActive ? '▲' : '▼'}
+              {isActive ? <IoIosArrowUp id='setaocima'/> : <IoIosArrowDown id='setaobaixo' />}
             </Botao2  >
             <div className={`card ${isActive ? 'active' : ''}`}>
               {isActive && <p>Informações sobre o projeto</p>}
