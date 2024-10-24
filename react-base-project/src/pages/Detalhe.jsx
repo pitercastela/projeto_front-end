@@ -5,7 +5,7 @@ import ListContainer from "../components/ListContainer/ListContainer";
 
 import dados from "../data/computadores.json";
 
-import Base from "./Base";
+import Head from "../components/Head/Head";
 
 const Detalhe = () => {
 
@@ -15,7 +15,7 @@ const Detalhe = () => {
 
 return(
 
-    <Base>
+    <Head>
 
 <div>
 
@@ -31,7 +31,7 @@ return(
 
     </div>
 
-</Base>
+</Head>
 
 );
 

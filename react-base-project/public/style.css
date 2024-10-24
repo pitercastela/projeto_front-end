@@ -13,8 +13,8 @@
   --detalhe: hsla(9, 63%, 45%, 1);
 */
 
---primaria: rgb(118, 118, 118);
-  --background: rgb(177, 177, 177);
+--primaria: rgb(165, 165, 165);
+  --background: rgb(180, 180, 180);
   --secundaria: rgb(255, 255, 255);
   --destaque: rgb(255, 196, 0);
   --detalhe:rgb(26, 42, 79);

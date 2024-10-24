@@ -7,6 +7,7 @@ import Flex from "../components/Flex/Flex";
 import { Top_card } from "../components/Top_card/Style";
 import { Down_card } from "../components/Down_card/Style";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 const Home = () => {
 
 /* useEffect(()=> {
@@ -34,7 +35,8 @@ const Home = () => {
   };
 
   return (
-    <Base>
+
+    <Base >
       {activeCards.map((isActive, index) => (
         <Container key={index}>
           <Top_card>Projeto: </Top_card>
@@ -48,7 +50,6 @@ const Home = () => {
           </Down_card>
         </Container>
       ))}
-
     </Base>
   );
 };
