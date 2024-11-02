@@ -5,12 +5,12 @@ const Container = styled.div`
   grid-template-columns: 3fr 3fr;
   justify-content: center;
   align-items: center;
-  height: 35vh;
+  height: 30vh;
   width: 28vw;
   background-color: var(--primaria);
   margin: 20px;
   border-radius: 5px;
-  margin-left: 2.5vw;
+  margin-left: 2.7vw;
   
  
 `
