@@ -2,46 +2,55 @@
    {
       "id" : 1,
       "nome" : "Projeto Barber Shop",
-      "descricao" : "Projeto: Barber shop"
+      "descricao" : "Projeto: Barber shop",
+      "info" : "Informações sobre o projeto e seus participantes 1"
    },
    { 
       "id" : 2,
       "nome" : "Projeto Microsoft",
-      "descricao" : "Projeto Microsoft"
+      "descricao" : "Projeto Microsoft",
+      "info" : "Informações sobre o projeto e seus participantes 2"
    },
    {
       "id" : 3,
       "nome" : "Projeto Meta",
-      "descricao" : "Projeto Meta"
+      "descricao" : "Projeto Meta",
+      "info" : "Informações sobre o projeto e seus participantes 3"
    },
    { 
       "id" : 4,
       "nome" : "Projeto Iphone",
-      "descricao" : "Projeto Iphone"
+      "descricao" : "Projeto Iphone",
+      "info" : "Informações sobre o projeto e seus participantes 4"
    },
    { 
       "id" : 5,
       "nome" : "Projeto Coca-cola",
-      "descricao" : "Projeto Coca-cola"
+      "descricao" : "Projeto Coca-cola",
+      "info" : "Informações sobre o projeto e seus participantes 5"
    },
    { 
       "id" : 6,
       "nome" : "Projeto Pepsi",
-      "descricao" : "Projeto Pepsi"
+      "descricao" : "Projeto Pepsi",
+      "info" : "Informações sobre o projeto e seus participantes 6"
    },
    { 
       "id" : 7,
       "nome" : "Projeto Zara",
-      "descricao" : "Projeto Zara"
+      "descricao" : "Projeto Zara",
+      "info" : "Informações sobre o projeto e seus participantes 7"
    },
    { 
       "id" : 8,
       "nome" : "Projeto Android",
-      "descricao" : "Projeto Android"
+      "descricao" : "Projeto Android",
+      "info" : "Informações sobre o projeto e seus participantes 8"
    },
    { 
       "id" : 9,
       "nome" : "Projeto Instagram",
-      "descricao" : "Projeto Instagram"
+      "descricao" : "Projeto Instagram",
+      "info" : "Informações sobre o projeto e seus participantes 9"
    }
 ]

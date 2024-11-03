@@ -2,10 +2,9 @@ import GridContainer from "../components/GridContainer/GridContainer";
 import { useParams } from "react-router-dom";
 import FotoCard from "../components/FotoCard/FotoCard";
 import ListContainer from "../components/ListContainer/ListContainer";
-
 import dados from "../data/computadores.json";
-
 import Head from "../components/Head/Head";
+import RightBox from "../components/RightBox/RightBox";
 
 const Detalhe = () => {
 
@@ -15,21 +14,21 @@ const Detalhe = () => {
 
 return(
 
-    <Head>
-
-<div>
+<Head>
 
 <ListContainer>
-          {dadosFiltrados.map((ele) =>(
-            ele.descricao
+    {dadosFiltrados.map((ele) =>(
+        ele.descricao
+    )
+)}
+</ListContainer>
 
-
-          )
-
-          )}
-          </ListContainer>
-
-    </div>
+<RightBox>
+    {dadosFiltrados.map((ele) => (
+        ele.info
+    )
+)}
+</RightBox>
 
 </Head>
 
