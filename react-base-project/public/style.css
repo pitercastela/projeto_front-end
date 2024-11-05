@@ -124,3 +124,10 @@ button{
   margin-top: -10vh;
   cursor: pointer;
 }
+
+#imagens-home{
+  height: 27.3vh;
+  width: 28vw;
+  margin-top: .7vh;
+  margin-left: -.55vw;
+}

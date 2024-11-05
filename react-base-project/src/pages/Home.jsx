@@ -23,8 +23,6 @@ const Home = () => {
     })
   },[]) */
 
-
-
   const Botao2 =styled.div`
   text-decoration:none;
   `;
@@ -41,7 +39,10 @@ const Home = () => {
     <Base>
       {dados.map((ele, index) => (
         <Container key={index}>
-          <Top_card>{ele.nome}</Top_card>
+          <Top_card>
+          {ele.nome}
+          <img src={ele.url}id="imagens-home"/>
+            </Top_card>
           <Down_card>
             <div className={`card ${activeCards[index] ? "active" : ""}`}>
               {activeCards[index] && (

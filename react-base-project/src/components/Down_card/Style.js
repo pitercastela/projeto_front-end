@@ -7,7 +7,7 @@ width: 98%;
 color: black;
 text-align: center;
 height: 20px;
-margin-top: 240px;
+margin-top: 256px;
 padding: 5px;
 margin-bottom: 2vh;
 `

@@ -3,54 +3,63 @@
       "id" : 1,
       "nome" : "Projeto Barber Shop",
       "descricao" : "Projeto: Barber shop",
-      "info" : "Informações sobre o projeto e seus participantes 1"
+      "info" : "Informações sobre o projeto e seus participantes 1",
+      "url" : "imagens/Projeto-Barber-shop.jpg"
    },
    { 
       "id" : 2,
       "nome" : "Projeto Microsoft",
       "descricao" : "Projeto Microsoft",
-      "info" : "Informações sobre o projeto e seus participantes 2"
+      "info" : "Informações sobre o projeto e seus participantes 2",
+      "url" : "imagens/Projeto-microsoft.jpg"
    },
    {
       "id" : 3,
       "nome" : "Projeto Meta",
       "descricao" : "Projeto Meta",
-      "info" : "Informações sobre o projeto e seus participantes 3"
+      "info" : "Informações sobre o projeto e seus participantes 3",
+      "url" : "imagens/Projeto-meta.jpg"
    },
    { 
       "id" : 4,
       "nome" : "Projeto Iphone",
       "descricao" : "Projeto Iphone",
-      "info" : "Informações sobre o projeto e seus participantes 4"
+      "info" : "Informações sobre o projeto e seus participantes 4",
+      "url" : "imagens/Projeto-apple.jpg"
    },
    { 
       "id" : 5,
       "nome" : "Projeto Coca-cola",
       "descricao" : "Projeto Coca-cola",
-      "info" : "Informações sobre o projeto e seus participantes 5"
+      "info" : "Informações sobre o projeto e seus participantes 5",
+      "url" : "imagens/Projeto-cocacola.jpg"
    },
    { 
       "id" : 6,
       "nome" : "Projeto Pepsi",
       "descricao" : "Projeto Pepsi",
-      "info" : "Informações sobre o projeto e seus participantes 6"
-   },
+      "info" : "Informações sobre o projeto e seus participantes 6",
+      "url" : "imagens/Projeto-pepsi.jpg"
+      },
    { 
       "id" : 7,
       "nome" : "Projeto Zara",
       "descricao" : "Projeto Zara",
-      "info" : "Informações sobre o projeto e seus participantes 7"
+      "info" : "Informações sobre o projeto e seus participantes 7",
+      "url" : "imagens/Projeto-zara.jpg"
    },
    { 
       "id" : 8,
       "nome" : "Projeto Android",
       "descricao" : "Projeto Android",
-      "info" : "Informações sobre o projeto e seus participantes 8"
+      "info" : "Informações sobre o projeto e seus participantes 8",
+      "url" : "imagens/Projeto-android.jpg"
    },
    { 
       "id" : 9,
       "nome" : "Projeto Instagram",
       "descricao" : "Projeto Instagram",
-      "info" : "Informações sobre o projeto e seus participantes 9"
+      "info" : "Informações sobre o projeto e seus participantes 9",
+      "url" : "imagens/Projeto-instagram.jpg"
    }
 ]
