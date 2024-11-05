@@ -41,12 +41,14 @@ const Home = () => {
         <Container key={index}>
           <Top_card>
           {ele.nome}
+          <a href={`/#/detalhes/${ele.id}`}>
           <img src={ele.url}id="imagens-home"/>
+          </a>
             </Top_card>
           <Down_card>
             <div className={`card ${activeCards[index] ? "active" : ""}`}>
               {activeCards[index] && (
-                <><a href={`/#/detalhes/${ele.id}`}>saiba mais</a><p style={{ background: "var(--secundaria)", width: "28vw", height: "180px", borderRadius: "0px 0px 5px 5px", marginLeft: "-5px", }}>Informações sobre o projeto</p></>
+                <p style={{ background: "var(--secundaria)", width: "28vw", height: "180px", borderRadius: "0px 0px 5px 5px", marginLeft: "-5px", }}>Informações sobre o projeto</p>
               )}
             </div>
             <Botao2 onClick={() => toggleCard(index)}>

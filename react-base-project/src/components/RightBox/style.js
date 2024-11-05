@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const RightContainer = styled.div`
+
  background-color: var(--primaria);
  border-radius: 2rem;
  height: 100%;

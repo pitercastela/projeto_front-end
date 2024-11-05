@@ -5,6 +5,8 @@ import ListContainer from "../components/ListContainer/ListContainer";
 import dados from "../data/computadores.json";
 import Head from "../components/Head/Head";
 import RightBox from "../components/RightBox/RightBox";
+import { FotoBox } from "../components/FotoContainer/style";
+import BottomBox from "../components/BottomBox/BottomBox";
 
 const Detalhe = () => {
 
@@ -23,12 +25,28 @@ return(
 )}
 </ListContainer>
 
+<FotoBox>
+{dadosFiltrados.map((ele) => (
+        <img src={ele.url}/>
+    )
+)}
+</FotoBox>
+
+
 <RightBox>
     {dadosFiltrados.map((ele) => (
         ele.info
     )
 )}
 </RightBox>
+
+<BottomBox>
+<p>{dadosFiltrados.map((ele) => (
+        ele.Sobre_nos
+    )
+
+)}</p>
+</BottomBox>
 
 </Head>
 

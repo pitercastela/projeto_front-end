@@ -3,63 +3,72 @@
       "id" : 1,
       "nome" : "Projeto Barber Shop",
       "descricao" : "Projeto: Barber shop",
-      "info" : "Informações sobre o projeto e seus participantes 1",
-      "url" : "imagens/Projeto-Barber-shop.jpg"
+      "info" : "Informações sobre o projeto 1",
+      "url" : "imagens/Projeto-Barber-shop.jpg",
+      "Sobre_nos":"Informações seus participantes 1"
    },
-   { 
+   {
       "id" : 2,
       "nome" : "Projeto Microsoft",
       "descricao" : "Projeto Microsoft",
-      "info" : "Informações sobre o projeto e seus participantes 2",
-      "url" : "imagens/Projeto-microsoft.jpg"
+      "info" : "Informações sobre o projeto 2",
+      "url" : "imagens/Projeto-microsoft.jpg",
+      "Sobre_nos":"Informações seus participantes 2"
    },
    {
       "id" : 3,
       "nome" : "Projeto Meta",
       "descricao" : "Projeto Meta",
-      "info" : "Informações sobre o projeto e seus participantes 3",
-      "url" : "imagens/Projeto-meta.jpg"
+      "info" : "Informações sobre o projeto 3",
+      "url" : "imagens/Projeto-meta.jpg",
+      "Sobre_nos":"Informações seus participantes 3"
    },
-   { 
+   {
       "id" : 4,
       "nome" : "Projeto Iphone",
       "descricao" : "Projeto Iphone",
-      "info" : "Informações sobre o projeto e seus participantes 4",
-      "url" : "imagens/Projeto-apple.jpg"
+      "info" : "Informações sobre o projeto 4",
+      "url" : "imagens/Projeto-apple.jpg",
+      "Sobre_nos":"Informações seus participantes 4"
    },
-   { 
+   {
       "id" : 5,
       "nome" : "Projeto Coca-cola",
       "descricao" : "Projeto Coca-cola",
-      "info" : "Informações sobre o projeto e seus participantes 5",
-      "url" : "imagens/Projeto-cocacola.jpg"
+      "info" : "Informações sobre o projeto 5",
+      "url" : "imagens/Projeto-cocacola.jpg",
+      "Sobre_nos":"Informações seus participantes 5"
    },
-   { 
+   {
       "id" : 6,
       "nome" : "Projeto Pepsi",
       "descricao" : "Projeto Pepsi",
-      "info" : "Informações sobre o projeto e seus participantes 6",
-      "url" : "imagens/Projeto-pepsi.jpg"
+      "info" : "Informações sobre o projeto 6",
+      "url" : "imagens/Projeto-pepsi.jpg",
+      "Sobre_nos":"Informações seus participantes 6"
       },
-   { 
+   {
       "id" : 7,
       "nome" : "Projeto Zara",
       "descricao" : "Projeto Zara",
-      "info" : "Informações sobre o projeto e seus participantes 7",
-      "url" : "imagens/Projeto-zara.jpg"
+      "info" : "Informações sobre o projeto 7",
+      "url" : "imagens/Projeto-zara.jpg",
+      "Sobre_nos":"Informações seus participantes 7"
    },
-   { 
+   {
       "id" : 8,
       "nome" : "Projeto Android",
       "descricao" : "Projeto Android",
-      "info" : "Informações sobre o projeto e seus participantes 8",
-      "url" : "imagens/Projeto-android.jpg"
+      "info" : "Informações sobre o projeto 8",
+      "url" : "imagens/Projeto-android.jpg",
+      "Sobre_nos":"Informações seus participantes 8"
    },
-   { 
+   {
       "id" : 9,
       "nome" : "Projeto Instagram",
       "descricao" : "Projeto Instagram",
-      "info" : "Informações sobre o projeto e seus participantes 9",
-      "url" : "imagens/Projeto-instagram.jpg"
+      "info" : "Informações sobre o projeto 9",
+      "url" : "imagens/Projeto-instagram.jpg",
+      "Sobre_nos":"Informações seus participantes 9"
    }
 ]
