@@ -7,7 +7,7 @@ const RightContainer = styled.div`
  height: 100%;
  width: 28%;
  margin-left: auto;
- margin-top: -4vh;
+ margin-top: -75vh;
  margin-right: .3vw;
  color: var(--texto);
  text-align: center;

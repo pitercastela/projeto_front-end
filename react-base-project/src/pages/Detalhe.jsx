@@ -7,6 +7,7 @@ import Head from "../components/Head/Head";
 import RightBox from "../components/RightBox/RightBox";
 import { FotoBox } from "../components/FotoContainer/style";
 import BottomBox from "../components/BottomBox/BottomBox";
+import DescBox from "../components/DescBox/DescBox";
 
 const Detalhe = () => {
 
@@ -20,7 +21,7 @@ return(
 
 <ListContainer>
     {dadosFiltrados.map((ele) =>(
-        ele.descricao
+        ele.nome
     )
 )}
 </ListContainer>
@@ -32,13 +33,19 @@ return(
 )}
 </FotoBox>
 
-
 <RightBox>
     {dadosFiltrados.map((ele) => (
         ele.info
     )
 )}
 </RightBox>
+
+<DescBox>
+    {dadosFiltrados.map((ele) =>(
+        ele.desc
+    )
+)}
+</DescBox>
 
 <BottomBox>
 <p>{dadosFiltrados.map((ele) => (

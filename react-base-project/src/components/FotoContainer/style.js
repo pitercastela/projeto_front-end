@@ -6,8 +6,8 @@ const FotoBox = styled.div`
  border-radius: 2rem;
  height: 75%;
  width: 65%;
- margin-left: .3vw;
- margin-top: -4vh;
+ margin-left: 1vw;
+ margin-top: -.2vh;
  margin-right: auto;
  color: var(--texto);
 
