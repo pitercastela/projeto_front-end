@@ -11,6 +11,7 @@ const Container = styled.div`
   font-family: inter;
   font-size: 50px;
   color: var(--texto);
+  margin-top: -2vh;
 `
 
 export { Container };
