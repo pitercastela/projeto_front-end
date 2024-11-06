@@ -24,10 +24,10 @@ const Header = ({ onSearchChange }) => {
 
     <div id="barra">Filtrar por:
         <select >
-        <option value="" disabled selected hidden>ferramenta</option>
-        <option value="ferramenta1">React</option>
-            <option value="ferramenta2">Vue</option>
-            <option value="ferramenta3">Ferramenta 3</option>
+        <option value="" disabled selected hidden>Ferramentas</option>
+        <option value="ferramenta1">Xcode</option>
+            <option value="ferramenta2">NetBeans</option>
+            <option value="ferramenta3">Git</option>
         </select>
         <select>
             <option value="" disabled selected hidden>Tecnologias</option>
@@ -49,9 +49,10 @@ const Header = ({ onSearchChange }) => {
         </select>
         <select>
             <option value="" disabled selected hidden>Unidade</option>
-            <option value="unidade1">RJ</option>
+            <option value="unidade1">Barra</option>
             <option value="unidade2">BH</option>
             <option value="unidade3">SP</option>
+            <option value="unidade4">Centro</option>
         </select>
     </div>
 
