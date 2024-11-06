@@ -41,10 +41,11 @@ return(
 </RightBox>
 
 <DescBox>
-    {dadosFiltrados.map((ele) =>(
-        ele.desc
+<p>{dadosFiltrados.map((ele) => (
+        ele.Sobre_nos
     )
-)}
+
+)}</p>
 </DescBox>
 
 <BottomBox>
