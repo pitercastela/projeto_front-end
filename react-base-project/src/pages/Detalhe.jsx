@@ -42,7 +42,7 @@ return(
 
 <DescBox>
 <p>{dadosFiltrados.map((ele) => (
-        ele.Sobre_nos
+        ele.desc
     )
 
 )}</p>
