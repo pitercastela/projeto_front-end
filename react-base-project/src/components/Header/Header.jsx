@@ -1,14 +1,21 @@
 import { Link } from "react-router-dom";
 import { Top } from "./Style";
 
-const Header = () => (
+const Header = ({ onSearchChange }) => {
+    const handleInputChange = (event) => {
+      onSearchChange(event.target.value); // Envia o valor do input para Base
+    };
+    return(
   <Top>
 
     <a href="https://www.ibmec.br" target="ibmec" >
     <img id="logoibmec" src="/imagens/logo-ibmec.jpg" alt="Logo IBMEC" style={{ cursor: 'pointer' }} />
     </a>
 
-  <input id="pesquisar" placeholder="Pesquisa"/>
+  <input
+  id="pesquisar"
+  placeholder="Pesquisa"
+  onChange={handleInputChange} />
 
     <select id='select-tradu' >
         <option value="">Português</option>
@@ -50,6 +57,7 @@ const Header = () => (
 
 
   </Top>
-)
+);
+};
 
 export default Header;
