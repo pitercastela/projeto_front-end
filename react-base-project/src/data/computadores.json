@@ -1,5 +1,5 @@
 [
-{
+   {
       "id" : 1,
       "nome" : "Projeto Barber Shop",
       "descricao" : "Projeto: Barber shop",
@@ -41,8 +41,8 @@
    },
    {
       "id" : 5,
-      "nome" : "Projeto Coca-cola",
-      "descricao" : "Projeto Coca-cola",
+      "nome" : "Projeto Barber Shop",
+      "descricao" : "Projeto Barber Shop",
       "tecnologias" : "Git",
       "unidade" : "Centro",
       "periodo" : "Noite",
@@ -51,8 +51,8 @@
    },
    {
       "id" : 6,
-      "nome" : "Projeto Pepsi",
-      "descricao" : "Projeto Pepsi",
+      "nome" : "Projeto Pizzaria",
+      "descricao" : "Projeto Pizzaria",
       "tecnologias" : "Git",
       "unidade" : "Centro",
       "periodo" : "Noite",
@@ -61,8 +61,8 @@
    },
    {
       "id" : 7,
-      "nome" : "Projeto Zara",
-      "descricao" : "Projeto Zara",
+      "nome" : "Projeto Imobiliário",
+      "descricao" : "Projeto Imobiliário",
       "tecnologias" : "Git",
       "unidade" : "Centro",
       "periodo" : "Noite",
@@ -71,8 +71,8 @@
    },
    {
       "id" : 8,
-      "nome" : "Projeto Android",
-      "descricao" : "Projeto Android",
+      "nome" : "Projeto Agencia de Viagens",
+      "descricao" : "Projeto Agencia de Viagens",
       "tecnologias" : "Git",
       "unidade" : "Centro",
       "periodo" : "Noite",
@@ -81,8 +81,8 @@
    },
    {
       "id" : 9,
-      "nome" : "Projeto Instagram",
-      "descricao" : "Projeto Instagram",
+      "nome" : "Projeto Barber shop",
+      "descricao" : "Projeto Barber shop",
       "tecnologias" : "Git",
       "unidade" : "Centro",
       "periodo" : "Noite",
