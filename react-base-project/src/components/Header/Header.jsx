@@ -22,32 +22,32 @@ const Header = ({ onSearchChange }) => {
         <option value= "Inglês">Inglês</option>
     </select>
 
-    <div id="barra">Filtrar por:
-        <select >
+    <div id="barra"><p>Filtrar por:</p>
+        <select class="selecte" >
         <option value="" disabled selected hidden>Ferramentas</option>
         <option value="ferramenta1">Xcode</option>
             <option value="ferramenta2">NetBeans</option>
             <option value="ferramenta3">Git</option>
         </select>
-        <select>
+        <select class="selecte">
             <option value="" disabled selected hidden>Tecnologias</option>
             <option value="tecnologia1">Swagger</option>
             <option value="tecnologia2">Typescript</option>
             <option value="tecnologia3">React</option>
         </select>
-        <select>
+        <select class="selecte">
             <option value="" disabled selected hidden >Curso</option>
             <option value="curso1">Ciencia de Dados</option>
             <option value="curso2">Eng.Software</option>
             <option value="curso3">Eng.Computação</option>
         </select>
-        <select>
+        <select class="selecte">
             <option value="" disabled selected hidden>Período</option>
             <option value="periodo1">Manhã</option>
             <option value="periodo2">Tarde</option>
             <option value="periodo3">Noite</option>
         </select>
-        <select>
+        <select class="selecte">
             <option value="" disabled selected hidden>Unidade</option>
             <option value="unidade1">Barra</option>
             <option value="unidade2">BH</option>
