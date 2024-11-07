@@ -5,10 +5,10 @@ const FotoBox = styled.div`
  background-color: var(--detalhe);
  border-radius: 2rem;
  height: 75%;
- width: 65%;
+ width: 62%;
+ padding: 2vw; 
  margin-left: 1vw;
  margin-top: -.2vh;
- margin-right: auto;
  color: var(--texto);
 
 `

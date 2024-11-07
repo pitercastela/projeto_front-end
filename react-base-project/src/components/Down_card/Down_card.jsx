@@ -1,6 +1,6 @@
 import { Down_card } from "./Style";
 
-const down = (props) => (
+const down = () => (
 
     <Down>
         

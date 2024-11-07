@@ -2,7 +2,7 @@ import { BottomContainer } from "./style";
 
 const BottomBox = (props) => (
     <BottomContainer>
-        <><h1>Sobre Nós</h1></>
+        <h2>Sobre Nós</h2>
         {props.children}
     </BottomContainer>
 )

@@ -48,14 +48,15 @@ const Home = () => {
           <Down_card>
             <div className={`card ${activeCards[index] ? "active" : ""}`}>
               {activeCards[index] && (
-                <p style={{ background: "var(--secundaria)", width: "28vw", height: "180px", borderRadius: "0px 0px 5px 5px", marginLeft: "-5px" }}>
-                  Informações sobre o projeto
-                </p>
+                <div class="card2">
+                  <p>Informações sobre o projeto</p>
+                </div>
               )}
-            </div>
+            
             <Botao2 onClick={() => toggleCard(index)}>
               {activeCards[index] ? <IoIosArrowUp id="setaocima" /> : <IoIosArrowDown id="setaobaixo" />}
             </Botao2>
+            </div>
           </Down_card>
         </Container>
       ))}

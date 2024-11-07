@@ -28,7 +28,7 @@ export const Top = styled.header`
 
   #pesquisar{
     position: relative;
-    height: 4vh;
+    height: 3.8vh;
     width: 40vw;
     border: none;
     font-size: 1.4em;
