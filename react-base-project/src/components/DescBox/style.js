@@ -9,6 +9,7 @@ height: 30%;
 color: var(--texto);
 margin-top: -23vh;
 font-size: 30px;
+text-align: center;
 `
 
 export { DescContainer }

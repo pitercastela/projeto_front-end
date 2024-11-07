@@ -34,15 +34,35 @@ return(
 </FotoBox>
 
 <RightBox>
+    <p>
+        tecnologias:
     {dadosFiltrados.map((ele) => (
-        ele.info
+        ele.tecnologias
     )
-)}
+)}</p>
+<p>
+    integrantes:
+    {dadosFiltrados.map((ele) => (
+        ele.Integrantes
+    )
+)}</p>
+<p>
+    período:
+    {dadosFiltrados.map((ele) => (
+        ele.periodo
+    )
+)}</p>
+<p>
+    unidade:
+    {dadosFiltrados.map((ele) => (
+        ele.unidade
+    )
+)}</p>
 </RightBox>
 
 <DescBox>
 <p>{dadosFiltrados.map((ele) => (
-        ele.desc
+        ele.descricao
     )
 
 )}</p>
@@ -50,7 +70,7 @@ return(
 
 <BottomBox>
 <p>{dadosFiltrados.map((ele) => (
-        ele.Sobre_nos
+        ele.Integrantes
     )
 
 )}</p>
