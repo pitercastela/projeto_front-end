@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  /* CSS HSL */
+  /* https://coolors.co/ */
+
+/*  --primaria: hsla(210, 67%, 43%, 1);
+  --background: hsla(108, 22%, 87%, 1);
+  --secundaria: hsla(34, 100%, 50%, 1);
+  --destaque: hsla(355, 78%, 56%, 1);
+  --detalhe: hsla(9, 63%, 45%, 1);
+*/
+
+--primaria: rgb(165, 165, 165);
+  --background: rgb(180, 180, 180);
+  --secundaria: rgb(255, 255, 255);
+  --destaque: rgb(255, 196, 0);
+  --detalhe:rgb(26, 42, 79);
+  --texto: rgb(0, 0, 0);
+
+/*   --primaria: hsla(0, 1%, 20%, 1);
+  --background: hsla(81, 21%, 74%, 1);
+  --secundaria: hsla(135, 7%, 64%, 1);
+  --destaque: hsla(8, 34%, 54%, 1);
+  --detalhe:hsla(241, 96%, 72%, 1); */
+
+
+  ::-webkit-scrollbar{
+    width: 17px;
+
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: var(--detalhe);
+    border-radius: 20px;
+    
+  }
+
+
+}
+
+/* borda vermelha em todos os elementos para debug
+* {
+  outline: red solid 1px;
+}
+*/
+
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  background-color: var(--background);
+  color:var(--primaria);
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/* botão dos cards, não sei por que está essa div, só sei q é e não tem oq fazer :(*/
+.WJyrk button{
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+#barra{
+  background-color: var(--detalhe);
+  padding: 16px;
+  margin-top: 25px;
+  width: 95%;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 12px;
+  color: var(--secundaria);
+
+}
+
+/*botões de Filtros*/
+button{
+  margin-left: 70px;
+  background-color: var(--secundaria);
+  color: rgba(0, 0, 0, 0.831);
+  width: 150px;
+  height: 26px;
+  border-radius: 6px;
+  text-align: center;
+  border: 0.5px solid var(--primaria);
+}
+
+/* botão de tradução */
+#tradu{
+  height: 42px;
+  width: 198px;
+  color: var(--destaque);
+  background-color: var(--detalhe);
+  border-radius: 12px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#setaobaixo{
+  width: 30px;
+  height: 30px;
+  margin-top: -3px;
+  cursor: pointer;
+  margin-bottom: 4vh;
+}
+
+#setaocima{
+  width: 30px;
+  height: 30px;
+  margin-top: -5vh;
+  cursor: pointer;
+  object-fit: cover;
+  background-color: var(--secundaria);
+  width: 103.6%;
+  margin-left: -.5vw;
+  border-radius: 0px 0px 12px 12px;
+  margin-bottom: 1vh;
+}
+
+#imagens-home{
+  height: 1400%;
+  width: 103.6%;
+  margin-top: .7vh;
+  margin-left: -.5vw;
+}
+
+/* cards */
+
+.card2 {
+  width: 103.6%;
+  height: 19vh;
+  margin-top: -1vw;
+  padding-top: 2vh;
+  margin-left: -.5vw;
+  border-radius: 0px 0px 12px 12px;
+  background-color: var(--secundaria);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-top: 0;
+}
+/* responsivo */
+
+@media screen and (max-width: 600px) {
+ .container {
+    flex-direction: column;
+  }
+
+ .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #barra{
+    font-size: 20px;
+    width: 90%;
+  }
+  button{
+    font-size: 12px;
+    width: 100px;
+  }
+  #imagens-home{
+    height: 1200%;
+    width: 100%;
+  }
+  footer {
+    font-size: 12px;
+  }
+  #setaobaixo, #setaocima {
+    display: none;
+  }
+  #tradu{
+    display: none;
+  }
+  #imagens-home{
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #imagens-home img{
+    height: 100%;
+    width: 100%;
+  }
+  #imagens-home img:hover{
+    transform: scale(1.1);
+  }
+  #imagens-home img:active{
+    transform: scale(1.05);
+  }
+  #imagens-home img:focus{
+    transform: scale(1.07);
+  }
+  #imagens-home img:visited{
+    transform: scale(1.03);
+  }
+  #imagens-home img:link{
+    transform: scale(1.01);
+  }
+}
+
+/* hover */
+
+
