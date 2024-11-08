@@ -41,7 +41,7 @@ const Home = () => {
         <Container key={index}>
           <Top_card>
             {ele.nome}
-            <a href={`/#/detalhes/${ele.id}`}>
+            <a href={`https://pitercastela.github.io/projeto_front-end/#/detalhes/${ele.id}`}>
               <img src={ele.url} id="imagens-home" />
             </a>
           </Top_card>
