@@ -9,7 +9,7 @@ const Header = ({ onSearchChange }) => {
   <Top>
 
     <a href="https://www.ibmec.br" target="ibmec" >
-    <img id="logoibmec" src="/imagens/logo-ibmec.jpg" alt="Logo IBMEC" style={{ cursor: 'pointer' }} />
+    <img id="logoibmec" src="imagens/logo-ibmec.jpg" alt="Logo IBMEC" style={{ cursor: 'pointer' }} />
     </a>
 
   <input
