@@ -28,7 +28,7 @@ return(
 
 <FotoBox>
 {dadosFiltrados.map((ele) => (
-        <img title="foto" src={ele.url}/>
+        <img src={ele.url}/>
     )
 )}
 </FotoBox>
