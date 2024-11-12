@@ -28,7 +28,7 @@ return(
 
 <FotoBox>
 {dadosFiltrados.map((ele) => (
-        <img title="foto" style="width:100%; height: 100%" src={`${process.env.PUBLIC_URL}/${ele.url}`}/>
+        <img title="foto" src={ele.url} id="imagem"/>
     )
 )}
 </FotoBox>
