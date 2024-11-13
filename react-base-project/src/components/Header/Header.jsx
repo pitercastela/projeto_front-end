@@ -1,6 +1,6 @@
-import { Link, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import { Top } from "./Style";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const optionsFerramentas = [
   { value: "", label: "Ferramentas", disabled: true },
@@ -41,33 +41,53 @@ const optionsUnidade = [
 const Header = ({ onSearchChange }) => {
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const [selectedFerramenta, setSelectedFerramenta] = useState("");
-  const [selectedTecnologia, setSelectedTecnologia] = useState("");
-  const [selectedCurso, setSelectedCurso] = useState("");
-  const [selectedPeriodo, setSelectedPeriodo] = useState("");
-  const [selectedUnidade, setSelectedUnidade] = useState("");
+  const [selectedFerramenta, setSelectedFerramenta] = useState(searchParams.get("ferramenta") || "");
+  const [selectedTecnologia, setSelectedTecnologia] = useState(searchParams.get("tecnologia") || "");
+  const [selectedCurso, setSelectedCurso] = useState(searchParams.get("curso") || "");
+  const [selectedPeriodo, setSelectedPeriodo] = useState(searchParams.get("periodo") || "");
+  const [selectedUnidade, setSelectedUnidade] = useState(searchParams.get("unidade") || "");
 
-  // Função para atualizar os searchParams e estados dos seletores(filtro)
+  useEffect(() => {
+    // Sincroniza os valores dos seletores com os parâmetros de busca na URL
+    setSelectedFerramenta(searchParams.get("ferramenta") || "");
+    setSelectedTecnologia(searchParams.get("tecnologia") || "");
+    setSelectedCurso(searchParams.get("curso") || "");
+    setSelectedPeriodo(searchParams.get("periodo") || "");
+    setSelectedUnidade(searchParams.get("unidade") || "");
+  }, [searchParams]);
+
   const handleSelectChange = (option, setValue, key) => {
-    setValue(option); // Salva o valor no estado
+    setValue(option);
     setSearchParams((prevParams) => {
       const newParams = new URLSearchParams(prevParams);
       if (option) {
-        newParams.set(key, option); // Atualiza o parâmetro na URL
+        newParams.set(key, option);
       } else {
-        newParams.delete(key); // Remove o parâmetro se o valor for vazio
+        newParams.delete(key);
       }
       return newParams;
     });
   };
 
   const handleInputChange = (event) => {
-    onSearchChange(event.target.value);
+    if (onSearchChange && typeof onSearchChange === "function") {
+      onSearchChange(event.target.value);
+    }
+  };
+
+  const handleClearFilters = () => {
+    setSelectedFerramenta("");
+    setSelectedTecnologia("");
+    setSelectedCurso("");
+    setSelectedPeriodo("");
+    setSelectedUnidade("");
+    
+    setSearchParams({});
   };
 
   return (
     <Top>
-      <a href="https://www.ibmec.br" target="ibmec">
+      <a href="https://www.ibmec.br" target="ibmec" aria-label="Visitar site do IBMEC">
         <img
           id="logoibmec"
           src="imagens/logo-ibmec.jpg"
@@ -80,9 +100,10 @@ const Header = ({ onSearchChange }) => {
         id="pesquisar"
         placeholder="Pesquisa"
         onChange={handleInputChange}
+        aria-label="Campo de pesquisa"
       />
 
-      <select id="select-tradu">
+      <select id="select-tradu" aria-label="Selecionar idioma">
         <option value="">Português</option>
         <option value="Inglês">Inglês</option>
       </select>
@@ -92,6 +113,7 @@ const Header = ({ onSearchChange }) => {
           id="select-ferramentas"
           value={selectedFerramenta}
           onChange={(e) => handleSelectChange(e.target.value, setSelectedFerramenta, "ferramenta")}
+          aria-label="Selecionar ferramenta"
         >
           {optionsFerramentas.map((option) => (
             <option key={option.value} value={option.value} disabled={option.disabled}>
@@ -104,6 +126,7 @@ const Header = ({ onSearchChange }) => {
           id="select-tecnologias"
           value={selectedTecnologia}
           onChange={(e) => handleSelectChange(e.target.value, setSelectedTecnologia, "tecnologia")}
+          aria-label="Selecionar tecnologia"
         >
           {optionsTecnologias.map((option) => (
             <option key={option.value} value={option.value} disabled={option.disabled}>
@@ -116,6 +139,7 @@ const Header = ({ onSearchChange }) => {
           id="select-curso"
           value={selectedCurso}
           onChange={(e) => handleSelectChange(e.target.value, setSelectedCurso, "curso")}
+          aria-label="Selecionar curso"
         >
           {optionsCurso.map((option) => (
             <option key={option.value} value={option.value} disabled={option.disabled}>
@@ -128,6 +152,7 @@ const Header = ({ onSearchChange }) => {
           id="select-periodo"
           value={selectedPeriodo}
           onChange={(e) => handleSelectChange(e.target.value, setSelectedPeriodo, "periodo")}
+          aria-label="Selecionar período"
         >
           {optionsPeriodo.map((option) => (
             <option key={option.value} value={option.value} disabled={option.disabled}>
@@ -140,6 +165,7 @@ const Header = ({ onSearchChange }) => {
           id="select-unidade"
           value={selectedUnidade}
           onChange={(e) => handleSelectChange(e.target.value, setSelectedUnidade, "unidade")}
+          aria-label="Selecionar unidade"
         >
           {optionsUnidade.map((option) => (
             <option key={option.value} value={option.value} disabled={option.disabled}>
@@ -147,6 +173,7 @@ const Header = ({ onSearchChange }) => {
             </option>
           ))}
         </select>
+        <button type="button" id="limpaBarra" onClick={handleClearFilters}>Limpar Filtros</button>
       </div>
     </Top>
   );

@@ -19,7 +19,7 @@ export const Top = styled.header`
     margin-right: 5px;
   }
 
-  select {
+  select, button {
     height: 82%;
     width: 12%;
     text-align: center;
