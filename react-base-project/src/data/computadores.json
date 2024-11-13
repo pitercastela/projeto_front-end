@@ -5,7 +5,8 @@
       "descricao" : "Projeto: Barber shop",
       "tecnologias" : "Git",
       "unidade" : "Barra",
-      "periodo" : "2°",
+      "Ferramenta" : "Barra",
+      "periodo" : "Manha",
       "url" : "imagens/Projeto-barber-shop.jpg",
       "Integrantes" : "Lucas, Joao"
    },
@@ -15,7 +16,7 @@
       "descricao" : "Projeto Pizzaria",
       "tecnologias" : "Git",
       "unidade" : "SP",
-      "periodo" : "7°",
+      "periodo" :"tarde",
       "url" : "imagens/pizzaprojeto.png",
       "Integrantes" : "Breno"
    },
@@ -25,7 +26,7 @@
       "descricao" : "Projeto Imobiliário",
       "tecnologias" : "Git",
       "unidade" : "Centro",
-      "periodo" : "5°",
+      "periodo" : "noite",
       "url" : "imagens/projetocasa.png",
       "Integrantes" : "Integrantes do projeto 3"
    },
@@ -35,7 +36,7 @@
       "descricao" : "Projeto Agencia de Viagens",
       "tecnologias" : "Xcode",
       "unidade" : "Bh",
-      "periodo" : "3°",
+      "periodo" : "Manha",
       "url" : "imagens/projetotravel.png",
       "Integrantes" : "Integrantes do projeto 4"
    },
@@ -45,7 +46,7 @@
       "descricao" : "Projeto Barber Shop",
       "tecnologias" : "Git",
       "unidade" : "Centro",
-      "periodo" : "2°",
+      "periodo" : "tarde",
       "url" : "imagens/Projeto-barber-shop.jpg",
       "Integrantes" : "Integrantes do projeto 5"
    },
@@ -55,7 +56,7 @@
       "descricao" : "Projeto Pizzaria",
       "tecnologias" : " Git",
       "unidade" : "Centro",
-      "periodo" : "7°",
+      "periodo" : "noite",
       "url" : "imagens/pizzaprojeto.png",
       "Integrantes" : "Integrantes do projeto 6"
    },
@@ -65,7 +66,7 @@
       "descricao" : "Projeto Imobiliário",
       "tecnologias" : "Git",
       "unidade" : "Centro",
-      "periodo" : "5°",
+      "periodo" : "tarde",
       "url" : "imagens/projetocasa.png",
       "Integrantes" : "Integrantes do projeto 7"
    },
@@ -75,7 +76,7 @@
       "descricao" : "Projeto Agencia de Viagens",
       "tecnologias" : "Git",
       "unidade" : "Centro",
-      "periodo" : "3°",
+      "periodo" : "Manha",
       "url" : "imagens/projetotravel.png",
       "Integrantes" : "Integrantes do projeto 8"
    },
@@ -85,7 +86,7 @@
       "descricao" : "Projeto Barber shop",
       "tecnologias" : "Git",
       "unidade" : "Centro",
-      "periodo" : "2°",
+      "periodo" : "tarde",
       "url" : "imagens/Projeto-barber-shop.jpg",
       "Integrantes" : "Integrantes do projeto 9"
    }

@@ -11,7 +11,8 @@ import Header from "../components/Header/Header";
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [activeCards, setActiveCards] = useState(Array(9).fill(false)); // Define o número de cards
+  const [filters, setFilters] = useState({});
+  const [activeCards, setActiveCards] = useState(Array(10).fill(false)); // Define o número de cards
 
   const Botao2 = styled.div`
     text-decoration: none;
@@ -28,14 +29,26 @@ const Home = () => {
     setSearchTerm(value);
   };
 
-  // Filtragem dos dados
-  const filteredData = dados.filter((ele) =>
-    ele.nome.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  // Função para atualizar os filtros
+  const handleFilterChange = (newFilters) => {
+    setFilters(newFilters);
+  };
+
+  // Filtragem dos dados com base nos filtros selecionados
+  const filteredData = dados.filter((ele) => {
+    return (
+      ele.nome.toLowerCase().includes(searchTerm.toLowerCase()) &&
+      (!filters.ferramenta || ele.Ferramenta === filters.ferramenta) &&
+      (!filters.tecnologia || ele.tecnologias === filters.tecnologia) &&
+      (!filters.curso || ele.curso === filters.curso) &&
+      (!filters.periodo || ele.periodo === filters.periodo) &&
+      (!filters.unidade || ele.unidade === filters.unidade)
+    );
+  });
 
   return (
     <>
-      <Header onSearchChange={handleSearchChange} /> {}
+      <Header onSearchChange={handleSearchChange} onFilterChange={handleFilterChange} />
 
       {filteredData.map((ele, index) => (
         <Container key={index}>
@@ -48,14 +61,14 @@ const Home = () => {
           <Down_card>
             <div className={`card ${activeCards[index] ? "active" : ""}`}>
               {activeCards[index] && (
-                <div class="card2">
+                <div className="card2">
                   <p>Informações sobre o projeto</p>
                 </div>
               )}
-            
-            <Botao2 onClick={() => toggleCard(index)}>
-              {activeCards[index] ? <IoIosArrowUp id="setaocima" /> : <IoIosArrowDown id="setaobaixo" />}
-            </Botao2>
+
+              <Botao2 onClick={() => toggleCard(index)}>
+                {activeCards[index] ? <IoIosArrowUp id="setaocima" /> : <IoIosArrowDown id="setaobaixo" />}
+              </Botao2>
             </div>
           </Down_card>
         </Container>
