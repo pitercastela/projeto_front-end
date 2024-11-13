@@ -68,4 +68,8 @@
   - Na pagina principal deve mostarar o nome encurtado dos alunos (nome e um sobrenome) e na pagina de detalhamento o nome completo
 - O sistema deverá usar a identidade visual do Ibmec
 
+# **Pagina do GithubPage**
+
+Este e o endereço para a pagina: https://pitercastela.github.io/projeto_front-end/ 
+
 
