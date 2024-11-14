@@ -34,7 +34,7 @@
   ::-webkit-scrollbar-thumb{
     background-color: var(--detalhe);
     border-radius: 20px;
-    
+
   }
 
 
@@ -77,15 +77,12 @@ h1,h2,h3,h4,h5,h6{
   background-color: var(--detalhe);
   padding: 16px;
   margin-top: 25px;
-  width: 96%;
-  height: 5%;
+  width: 95%;
+  height: 30px;
   font-size: 30px;
   border-radius: 12px;
   color: var(--secundaria);
- margin-left: 0;
- margin-right: 10%;
-  position: fixed;
-  gap: 0;
+
 }
 
 /*botões de Filtros*/
@@ -170,28 +167,73 @@ button{
 .card p {
   margin-top: 0;
 }
+
+
+
+#imagem{
+  width: 100%;
+  height: 100%;
+}
 /* responsivo */
 
-@media screen and (max-width: 978px) {
-  .container {
-     flex-direction: row;
-   }
-
-  .card {
-     width: 100%;
-     margin-bottom: 20px;
-     border-radius: 0;
-   }
-  }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
  .container {
-    flex-direction: row;
+    flex-direction: column;
   }
+
  .card {
     width: 100%;
     margin-bottom: 20px;
-
-    border-radius: 0;
   }
 }
+
+@media screen and (max-width: 400px) {
+  #barra{
+    font-size: 20px;
+    width: 90%;
+  }
+  button{
+    font-size: 12px;
+    width: 100px;
+  }
+  #imagens-home{
+    height: 1200%;
+    width: 100%;
+  }
+  footer {
+    font-size: 12px;
+  }
+  #setaobaixo, #setaocima {
+    display: none;
+  }
+  #tradu{
+    display: none;
+  }
+  #imagens-home{
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #imagens-home img{
+    height: 100%;
+    width: 100%;
+  }
+  #imagens-home img:hover{
+    transform: scale(1.1);
+  }
+  #imagens-home img:active{
+    transform: scale(1.05);
+  }
+  #imagens-home img:focus{
+    transform: scale(1.07);
+  }
+  #imagens-home img:visited{
+    transform: scale(1.03);
+  }
+  #imagens-home img:link{
+    transform: scale(1.01);
+  }
+}
+
+/* hover */
+
 
