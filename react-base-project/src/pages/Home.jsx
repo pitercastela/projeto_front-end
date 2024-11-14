@@ -8,11 +8,16 @@ import { Top_card } from "../components/Top_card/Style";
 import { Down_card } from "../components/Down_card/Style";
 import dados from "../data/computadores.json";
 import Header from "../components/Header/Header";
+import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack } from "react-icons/io";
+
+const ItemsPorPags = 9;
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [filters, setFilters] = useState({});
-  const [activeCards, setActiveCards] = useState(Array(10).fill(false)); // Define o número de cards
+  const [activeCards, setActiveCards] = useState(Array(18).fill(false)); // Define o número de cards
+  const [currentPage, setCurrentPage] = useState(1)
 
   const Botao2 = styled.div`
     text-decoration: none;
@@ -46,11 +51,34 @@ const Home = () => {
     );
   });
 
+  const totalpags = Math.ceil(filteredData.length / ItemsPorPags);
+
+  const DataPag =  filteredData.slice(
+    (currentPage - 1) * ItemsPorPags,
+    currentPage * ItemsPorPags
+  );
+
+  const proxpag = () => {
+    if (currentPage < totalpags){
+    setCurrentPage((pag) => Math.min(pag + 1, totalpags))
+    }
+  };
+
+  const antpag = () => {
+    if (currentPage > 1){
+    setCurrentPage((pag) => Math.max(pag - 1, 1))
+    }
+  };
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filters, searchTerm]);
+
   return (
     <>
       <Header onSearchChange={handleSearchChange} onFilterChange={handleFilterChange} />
 
-      {filteredData.map((ele, index) => (
+      {DataPag.map((ele, index) => (
         <Container key={index}>
           <Top_card>
             {ele.nome}
@@ -73,6 +101,22 @@ const Home = () => {
           </Down_card>
         </Container>
       ))}
+            <div className="paginacao">
+        <div onClick={antpag} disabled={currentPage === 1}>
+          <IoIosArrowBack id="setadireita"/></div>
+        <p id="numpags">
+          {Array.from({ length: 2 }, (_, i) => (
+            <span
+              key={i + 1}
+              className={`page ${currentPage === i + 1 ? 'active' : 'inactive'}`}
+              onClick={() => setCurrentPage(i + 1)}>
+              {i + 1}
+            </span>
+          ))}
+        </p>
+        <div onClick={proxpag} disabled={currentPage === totalpags}>
+          <IoIosArrowForward id="setaesquerda"/></div>
+      </div>
     </>
   );
 };

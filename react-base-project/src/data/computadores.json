@@ -89,5 +89,96 @@
       "periodo" : "tarde",
       "url" : "imagens/Projeto-barber-shop.jpg",
       "Integrantes" : "Integrantes do projeto 9"
+   },
+   {
+      "id" : 10,
+      "nome" : "Projeto Barber Shop",
+      "descricao" : "Projeto: Barber shop",
+      "tecnologias" : "Git",
+      "unidade" : "Barra",
+      "Ferramenta" : "Barra",
+      "periodo" : "Manha",
+      "url" : "imagens/Projeto-barber-shop.jpg",
+      "Integrantes" : "Lucas, Joao"
+   },
+   {
+      "id" : 11,
+      "nome" : "Projeto Pizzaria",
+      "descricao" : "Projeto Pizzaria",
+      "tecnologias" : "Git",
+      "unidade" : "SP",
+      "periodo" :"tarde",
+      "url" : "imagens/Projeto-barber-shop.jpg",
+      "Integrantes" : "Breno"
+   },
+   {
+      "id" : 12,
+      "nome" : "Projeto Imobiliário",
+      "descricao" : "Projeto Imobiliário",
+      "tecnologias" : "Git",
+      "unidade" : "Centro",
+      "periodo" : "noite",
+      "url" : "imagens/projetocasa.png",
+      "Integrantes" : "Integrantes do projeto 3"
+   },
+   {
+      "id" : 13,
+      "nome" : "Projeto Agencia de Viagens",
+      "descricao" : "Projeto Agencia de Viagens",
+      "tecnologias" : "Xcode",
+      "unidade" : "Bh",
+      "periodo" : "Manha",
+      "url" : "imagens/projetotravel.png",
+      "Integrantes" : "Integrantes do projeto 4"
+   },
+   {
+      "id" : 14,
+      "nome" : "Projeto Barber Shop",
+      "descricao" : "Projeto Barber Shop",
+      "tecnologias" : "Git",
+      "unidade" : "Centro",
+      "periodo" : "tarde",
+      "url" : "imagens/Projeto-barber-shop.jpg",
+      "Integrantes" : "Integrantes do projeto 5"
+   },
+   {
+      "id" : 15,
+      "nome" : "Projeto Pizzaria",
+      "descricao" : "Projeto Pizzaria",
+      "tecnologias" : " Git",
+      "unidade" : "Centro",
+      "periodo" : "noite",
+      "url" : "imagens/pizzaprojeto.png",
+      "Integrantes" : "Integrantes do projeto 6"
+   },
+   {
+      "id" : 16,
+      "nome" : "Projeto Imobiliário",
+      "descricao" : "Projeto Imobiliário",
+      "tecnologias" : "Git",
+      "unidade" : "Centro",
+      "periodo" : "tarde",
+      "url" : "imagens/projetocasa.png",
+      "Integrantes" : "Integrantes do projeto 7"
+   },
+   {
+      "id" : 17,
+      "nome" : "Projeto Agencia de Viagens",
+      "descricao" : "Projeto Agencia de Viagens",
+      "tecnologias" : "Git",
+      "unidade" : "Centro",
+      "periodo" : "Manha",
+      "url" : "imagens/projetotravel.png",
+      "Integrantes" : "Integrantes do projeto 8"
+   },
+   {
+      "id" : 18,
+      "nome" : "Projeto Barber shop",
+      "descricao" : "Projeto Barber shop",
+      "tecnologias" : "Git",
+      "unidade" : "Centro",
+      "periodo" : "tarde",
+      "url" : "imagens/Projeto-barber-shop.jpg",
+      "Integrantes" : "Integrantes do projeto 9"
    }
 ]
