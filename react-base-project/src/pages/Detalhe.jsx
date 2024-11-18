@@ -70,7 +70,22 @@ return(
 
 <BottomBox>
 <p>{dadosFiltrados.map((ele) => (
-        ele.Integrantes
+        ele.Integrantes1
+    )
+
+)}</p>
+<p>{dadosFiltrados.map((ele) => (
+        ele.Integrantes2
+    )
+
+)}</p>
+<p>{dadosFiltrados.map((ele) => (
+        ele.Integrantes3
+    )
+
+)}</p>
+<p>{dadosFiltrados.map((ele) => (
+        ele.Integrantes4
     )
 
 )}</p>

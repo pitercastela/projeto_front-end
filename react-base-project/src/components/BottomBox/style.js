@@ -3,7 +3,7 @@ import styled from "styled-components";
 const BottomContainer = styled.div`
  background-color: var(--primaria);
  border-radius: 2rem;
- height: 40%;
+ height: 55%;
  width: 70%;
  margin-left: auto;
  margin-top: 100px;
