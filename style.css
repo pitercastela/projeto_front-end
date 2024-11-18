@@ -19,6 +19,7 @@
   --destaque: rgb(255, 196, 0);
   --detalhe:rgb(26, 42, 79);
   --texto: rgb(0, 0, 0);
+  --paginacao: rgb(14, 111, 237);
 
 /*   --primaria: hsla(0, 1%, 20%, 1);
   --background: hsla(81, 21%, 74%, 1);
@@ -232,6 +233,48 @@ button{
   #imagens-home img:link{
     transform: scale(1.01);
   }
+}
+
+.paginacao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+#numpags{
+  color: var(--paginacao);
+  font-size: 40px;
+  margin-top: 2.8vh;
+  cursor: pointer;
+}
+
+#setadireita, #setaesquerda{
+  color: var(--texto);
+  cursor: pointer;
+}
+
+.paginacao{
+  display: flex;
+  gap: 10px;
+  margin: 0 10px;
+  color: var(--texto);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.page {
+  margin: 8px;
+}
+
+.page.active {
+  color: var(--paginacao);
+  font-weight: bold;
+}
+
+.page.inactive {
+  color: black;
+  font-weight: normal;
 }
 
 /* hover */
