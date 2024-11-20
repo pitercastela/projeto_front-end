@@ -23,9 +23,10 @@ export const Top = styled.header`
     height: 82%;
     width: 12%;
     text-align: center;
-    font-size: 45%;
+    font-size: 50%;
     border-radius: 8px;
     border: none;
+    font-family: Helvetica;
   }
   .filter-label {
     margin-right: 10px;
@@ -43,6 +44,7 @@ export const Top = styled.header`
     right: 4vw;
     font-size: 100%;
     text-align: center;
+    font-family: Helvetica;
   }
 
   option{
@@ -65,7 +67,7 @@ export const Top = styled.header`
     width: 40vw;
     border: none;
     font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     margin-bottom: 15vh;
     background-color: var(--background);
     border-radius: 12px;

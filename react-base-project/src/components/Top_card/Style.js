@@ -7,6 +7,7 @@ border-radius: 5px 5px 0px 0px;
   height: 2vh;
   color: black;
   padding: .5vw;
+  font-family: Helvetica;
 
   `
 

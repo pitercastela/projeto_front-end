@@ -42,12 +42,8 @@ const Home = () => {
   // Filtragem dos dados com base nos filtros selecionados
   const filteredData = dados.filter((ele) => {
     return (
-      ele.nome.toLowerCase().includes(searchTerm.toLowerCase()) &&
-      (!filters.ferramenta || ele.Ferramenta === filters.ferramenta) &&
-      (!filters.tecnologia || ele.tecnologias === filters.tecnologia) &&
-      (!filters.curso || ele.curso === filters.curso) &&
-      (!filters.periodo || ele.periodo === filters.periodo) &&
-      (!filters.unidade || ele.unidade === filters.unidade)
+      ele.nome.toLowerCase().includes(searchTerm.toLowerCase()) || ele.tecnologias.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      ele.unidade.toLowerCase().includes(searchTerm.toLowerCase())
     );
   });
 
@@ -80,7 +76,7 @@ const Home = () => {
 
       {DataPag.map((ele, index) => (
         <Container key={index}>
-          <Top_card>
+          <Top_card id="card1">
             {ele.nome}
             <a href={`https://pitercastela.github.io/projeto_front-end/#/detalhes/${ele.id}`}>
               <img src={ele.url} id="imagens-home" />
@@ -90,7 +86,10 @@ const Home = () => {
             <div className={`card ${activeCards[index] ? "active" : ""}`}>
               {activeCards[index] && (
                 <div className="card2">
-                  <p>Informações sobre o projeto</p>
+                  <p>Integrantes: {ele.Integrantes}</p>
+                  <p>Tecnologias: {ele.tecnologias}</p>
+                  <p>Unidade: {ele.unidade}</p>
+                  <p>Semestre: {ele.periodo} período </p>
                 </div>
               )}
 

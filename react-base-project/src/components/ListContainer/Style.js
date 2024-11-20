@@ -8,7 +8,7 @@ const Container = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-family: inter;
+  font-family: Helvetica;
   font-size: 50px;
   color: var(--texto);
   margin-top: -2vh;

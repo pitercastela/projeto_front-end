@@ -9,7 +9,7 @@ color: black;
 text-align: center;
 margin-top: 27vh;
 padding: .5vw;
-
+font-family: Helvetica;
 `
 
 export { Down_card }

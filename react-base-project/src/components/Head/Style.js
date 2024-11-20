@@ -32,11 +32,11 @@ export const Top = styled.header`
     width: 40vw;
     border: none;
     font-size: 1.4em;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--background);
     border-radius: 12px;
     margin-left: 22vw;
     margin-top: 7vh;
     padding-left: 2vh;
+    font-family: Helvetica;
   }
 `;

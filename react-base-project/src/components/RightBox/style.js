@@ -12,6 +12,7 @@ const RightContainer = styled.div`
  color: var(--texto);
  text-align: center;
  font-size: 30px;
+ font-family: Helvetica;
 `
 
 export { RightContainer };

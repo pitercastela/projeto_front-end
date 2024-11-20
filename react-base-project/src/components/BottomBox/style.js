@@ -11,6 +11,8 @@ const BottomContainer = styled.div`
  color: var(--texto);
  text-align: center;
  font-size: 30px;
- padding: 1vw;`
+ padding: 1vw;
+ font-family: Helvetica;
+ `
 
  export {BottomContainer};
