@@ -57,7 +57,7 @@ const Home = () => {
   const filteredData = dados.filter((ele) => {
     return (
       ele.nome.toLowerCase().includes(searchTerm.toLowerCase()) || ele.tecnologias.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      ele.unidade.toLowerCase().includes(searchTerm.toLowerCase())
+      ele.unidade.toLowerCase().includes(searchTerm.toLowerCase()) || ele.Integrantes.toLowerCase().includes(searchTerm.toLowerCase())
     );
   });
 
