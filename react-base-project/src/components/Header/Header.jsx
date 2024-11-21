@@ -2,6 +2,9 @@ import { useSearchParams } from "react-router-dom";
 import { Top } from "./Style";
 import React, { useState, useEffect, useCallback } from "react";
 import Protegida from "../../pages/Protegida";
+import { signOut } from "firebase/auth"
+import { auth } from "../../config/Firebase";
+import { useNavigate } from "react-router-dom";
 
 // Definição das opções para os selects
 const optionsFerramentas = [
@@ -117,11 +120,20 @@ const Header = ({ onSearchChange, isLoggedIn, onLogout }) => {
     setSearchParams({});
   };
 
+  const navigate = useNavigate();
+
+  const handleLogout = (e) =>{
+    e.preventDefault();
+    signOut(auth);
+    window.sessionStorage.removeItem("accessToken");
+    navigate("/");}
+
+
   return (
     <Top>
       <Logo />
       <SearchInput onSearchChange={handleInputChange} />
-   <button type="button" id="logout">Sair</button>
+      <Protegida><button type="button" id="logout" onClick={handleLogout} >Sair</button></Protegida>
       <select id="select-tradu" aria-label="Selecionar idioma">
         <option value="">Português</option>
         <option value="Inglês">Inglês</option>

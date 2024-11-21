@@ -14,6 +14,7 @@ import { signOut } from "firebase/auth"
 import { auth } from "../config/Firebase";
 
 import { useNavigate } from "react-router-dom";
+import Protegida from "./Protegida";
 
 const ItemsPorPags = 9;
 
@@ -86,7 +87,6 @@ const Home = () => {
   return (
     <>
       <Header onSearchChange={handleSearchChange} onFilterChange={handleFilterChange} />
-
       {DataPag.map((ele, index) => (
         <Container key={index}>
           <Top_card id="card1">

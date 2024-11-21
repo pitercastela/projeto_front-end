@@ -52,7 +52,6 @@ export const Top = styled.header`
     color: rgba(0, 0, 0, 0.831);;
   }
     #logout{
-    display: none;
     background-color: red;
     color: var(--destaque);
     font-weight: bold;
