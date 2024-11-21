@@ -4,6 +4,7 @@ import { auth } from "../config/Firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import Base from "./Base";
 
+
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -34,7 +35,7 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Password"
         />
-        <button type="submit">Login</button>
+        <button type="submit" >Login</button>
       </form>
     </Base>
   )

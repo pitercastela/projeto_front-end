@@ -10,6 +10,10 @@ import dados from "../data/computadores.json";
 import Header from "../components/Header/Header";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
+import { signOut } from "firebase/auth"
+import { auth } from "../config/Firebase";
+
+import { useNavigate } from "react-router-dom";
 
 const ItemsPorPags = 9;
 
@@ -29,6 +33,15 @@ const Home = () => {
     setActiveCards(newActiveCards);
   };
 
+  const navigate = useNavigate();
+
+  const handleLogout = (e) =>{
+    e.preventDefault();
+    signOut(auth);
+    window.sessionStorage.removeItem("accessToken");
+    navigate("/");
+
+  }
   // Função para atualizar o termo de pesquisa
   const handleSearchChange = (value) => {
     setSearchTerm(value);

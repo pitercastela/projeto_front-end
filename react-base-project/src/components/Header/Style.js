@@ -51,6 +51,21 @@ export const Top = styled.header`
     background-color: var(--background);
     color: rgba(0, 0, 0, 0.831);;
   }
+    #logout{
+    display: none;
+    background-color: red;
+    color: var(--destaque);
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    width:9vw;
+    height: 4vh;
+    top: 9.5vh;
+    position: absolute;
+     font-size: 100%;
+    text-align: center;
+    font-family: Helvetica;}
 
   #logoibmec{
     position: absolute;
