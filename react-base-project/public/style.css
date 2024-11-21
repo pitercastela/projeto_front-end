@@ -138,7 +138,7 @@ button{
 #imagens-home{
   height: 1400%;
   width: 103.6%;
-  margin-top: .7vh;
+  margin-top: .1vh;
   margin-left: -.5vw;
 }
 
@@ -171,9 +171,10 @@ button{
 .card p {
   margin-top: 0;
   text-align: left;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: bold;
   font-family: Helvetica;
+  margin-top: 1vh;
 }
 
 #imagem{
