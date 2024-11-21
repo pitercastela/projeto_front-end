@@ -58,6 +58,18 @@ return(
         ele.unidade
     )
 )}</p>
+<p>início:
+{dadosFiltrados.map((ele) => (
+        ele.início
+    )
+)}
+</p>
+<p>fim:
+{dadosFiltrados.map((ele) => (
+        ele.fim
+    )
+)}
+</p>
 </RightBox>
 
 <DescBox>
