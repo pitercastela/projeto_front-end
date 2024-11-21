@@ -19,7 +19,6 @@
   --destaque: rgb(255, 196, 0);
   --detalhe:rgb(26, 42, 79);
   --texto: rgb(0, 0, 0);
-  --paginacao: rgb(14, 111, 237);
 
 /*   --primaria: hsla(0, 1%, 20%, 1);
   --background: hsla(81, 21%, 74%, 1);
@@ -35,7 +34,7 @@
   ::-webkit-scrollbar-thumb{
     background-color: var(--detalhe);
     border-radius: 20px;
-
+    
   }
 
 
@@ -83,7 +82,7 @@ h1,h2,h3,h4,h5,h6{
   font-size: 30px;
   border-radius: 12px;
   color: var(--secundaria);
-  font-family: Helvetica;
+
 }
 
 /*botões de Filtros*/
@@ -96,7 +95,6 @@ button{
   border-radius: 6px;
   text-align: center;
   border: 0.5px solid var(--primaria);
-  font-family: Helvetica;
 }
 
 /* botão de tradução */
@@ -111,7 +109,6 @@ button{
   right: 20px;
   font-size: 30px;
   text-align: center;
-  font-family: Helvetica;
 }
 
 #setaobaixo{
@@ -138,7 +135,7 @@ button{
 #imagens-home{
   height: 1400%;
   width: 103.6%;
-  margin-top: .1vh;
+  margin-top: .7vh;
   margin-left: -.5vw;
 }
 
@@ -165,21 +162,10 @@ button{
 
 .card h2 {
   margin-top: 0;
-  font-family: Helvetica;
 }
 
 .card p {
   margin-top: 0;
-  text-align: left;
-  font-size: 10px;
-  font-weight: bold;
-  font-family: Helvetica;
-  margin-top: 1vh;
-}
-
-#imagem{
-  width: 100%;
-  height: 100%;
 }
 /* responsivo */
 
@@ -239,55 +225,6 @@ button{
   #imagens-home img:link{
     transform: scale(1.01);
   }
-}
-
-.paginacao{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5vh;
-}
-
-#numpags{
-  color: var(--paginacao);
-  font-size: 40px;
-  margin-top: 2.8vh;
-  cursor: pointer;
-  font-family: Helvetica;
-}
-
-#setadireita, #setaesquerda{
-  color: var(--texto);
-  cursor: pointer;
-}
-
-.paginacao{
-  display: flex;
-  gap: 10px;
-  margin: 0 10px;
-  color: var(--texto);
-  font-weight: bold;
-  font-size: 40px;
-  font-family: Helvetica;
-}
-
-.page {
-  margin: 8px;
-}
-
-.page.active {
-  color: var(--paginacao);
-  font-weight: bold;
-}
-
-.page.inactive {
-  color: black;
-  font-weight: normal;
-}
-
-#card1{
-  font-family: Helvetica;
-  font-size: 20px;
 }
 
 /* hover */
