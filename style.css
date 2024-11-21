@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6{
   font-size: 30px;
   border-radius: 12px;
   color: var(--secundaria);
-
+  font-family: Helvetica;
 }
 
 /*botões de Filtros*/
@@ -96,6 +96,7 @@ button{
   border-radius: 6px;
   text-align: center;
   border: 0.5px solid var(--primaria);
+  font-family: Helvetica;
 }
 
 /* botão de tradução */
@@ -110,6 +111,7 @@ button{
   right: 20px;
   font-size: 30px;
   text-align: center;
+  font-family: Helvetica;
 }
 
 #setaobaixo{
@@ -163,13 +165,16 @@ button{
 
 .card h2 {
   margin-top: 0;
+  font-family: Helvetica;
 }
 
 .card p {
   margin-top: 0;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Helvetica;
 }
-
-
 
 #imagem{
   width: 100%;
@@ -247,6 +252,7 @@ button{
   font-size: 40px;
   margin-top: 2.8vh;
   cursor: pointer;
+  font-family: Helvetica;
 }
 
 #setadireita, #setaesquerda{
@@ -261,6 +267,7 @@ button{
   color: var(--texto);
   font-weight: bold;
   font-size: 40px;
+  font-family: Helvetica;
 }
 
 .page {
@@ -275,6 +282,11 @@ button{
 .page.inactive {
   color: black;
   font-weight: normal;
+}
+
+#card1{
+  font-family: Helvetica;
+  font-size: 20px;
 }
 
 /* hover */
